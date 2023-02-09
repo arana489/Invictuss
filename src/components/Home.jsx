@@ -7,7 +7,7 @@ export default function Home(props) {
             <div className="text-8xl pl-10 pt-10 text-center sm:text-left sm:pl-16 sm:pt-16">
 
                 <h1 className="text-white">
-                    Professional Cyber
+                    Professional Cyber 
                     <br />
                     <span className=" text-[#5AAFD8]"> Security </span>  with
                     <br />
