@@ -21,9 +21,6 @@ export default function Home(props) {
                 <h1 className="text-white"> Our Customers </h1>
             </div>
 
-            <div>
-                <h1 className="text-white"> Call To Action </h1>
-            </div>
 
             <div>
                 <h1 className="text-white"> Company Values </h1>
