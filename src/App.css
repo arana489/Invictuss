@@ -1,1 +1,32 @@
-/* Native styling not necessary */
+.About {
+    text-align: center;
+  }
+  
+  .hero {
+    height: 600px;
+    background-color: #caf0f8;
+  }
+
+  .rotate {
+    float: left;
+  }
+  .link {
+    padding: 60px 60px;
+    transform: rotate(-90deg);
+    position: left;
+    font-weight: 200;
+    font-size: medium;
+    cursor: pointer;
+  }
+  .whoWeAre {
+    height: 600px;
+    background-color: white;
+  }
+  .whyWorkWithUs {
+    height: 600px;
+    background-color: white;
+  }
+  .meetTheTeam {
+    height: 600px;
+    background-color: white;
+  }
