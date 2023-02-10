@@ -1,10 +1,15 @@
-const toggleButton = document.getElementById("toggleButton");
-const textSection = document.getElementById("textSection");
+import { useState, React } from 'react';
 
-toggleButton.addEventListener("click", function() {
-  if (textSection.classList.contains("hidden")) {
-    textSection.classList.remove("hidden");
-  } else {
-    textSection.classList.add("hidden");
-  }
-});
+const ServiceDropdown = (props) => {
+  const { service, description } = props;
+
+  //      bool      func        useState hook
+  const [visible, setVisible] = useState(false);
+  return (
+    <div className="text-4xl pl-10 pt-10 text-center sm:text-left sm:pl-16 sm:pt-16">
+      <button onClick={() => {setVisible(!visible)}}>{service}</button>
+      {visible ? <p className="text-2xl">{description}</p> : <></>}
+    </div>
+  );
+ };
+ export default ServiceDropdown;
