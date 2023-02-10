@@ -1,7 +1,9 @@
 import React from "react";
 import ServiceDropdown from "./ServiceDropdown";
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Service(props){
+    // Array with all services, may incorporate a loop later for efficiency and better code
     const services = ['DevSecOps and Cloud Defense',
                          'SSDLC + Security Awareness',
                         'CI/CD architecture and optimization',
@@ -16,9 +18,14 @@ export default function Service(props){
                 <br></br>
                 <h2>Services</h2>
                 <p className="text-6xl">Description Here</p>
+                <br></br>
             </div>
-            
-            <div>
+            {/* Possible bar with all services laid out and linked? */}
+            <div className="text-center">
+                <Link to="/Service#service1">{services[0]}</Link>
+            </div>
+            {/* All services are connected to the service dropdown component */}
+            <div id="service1">
                 <ServiceDropdown service={services[0]} description="description"></ServiceDropdown>
             </div>
             <div>
@@ -48,7 +55,7 @@ export default function Service(props){
                 <br></br>
             </div>
         </div>
-       
+        
 
     )
 }

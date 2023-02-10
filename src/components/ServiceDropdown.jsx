@@ -8,6 +8,7 @@ const ServiceDropdown = (props) => {
   const [visible, setVisible] = useState(false);
   return (
     <div className="text-4xl text-center sm:text-left sm:pl-16 sm:pt-16">
+      {/* Button is equal to the service param and hides/unhides the description */}
       <button class="hover:font-bold" onClick={() => {setVisible(!visible)}}>{service}</button>
       {visible ? <p className="text-2xl">{description}</p> : <></>}
     </div>
