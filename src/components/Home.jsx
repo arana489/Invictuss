@@ -1,22 +1,10 @@
 import React from "react";
-
+import CallToAction from "./CallToAction";
 
 export default function Home(props) {
     return (
         <div className="flex-auto h-screen bg-[#04142A]">
-            <div className="text-8xl pl-10 pt-10 text-center sm:text-left sm:pl-16 sm:pt-16">
-
-                <h1 className="text-white">
-                    Professional Cyber 
-                    <br />
-                    <span className=" text-[#5AAFD8]"> Security </span>  with
-                    <br />
-                    <span className=" text-[#E9993F]"> Reliable </span> Service
-                </h1>
-
-
-            </div>
-
+            <CallToAction></CallToAction>
             <div>
                 <h1 className="text-white"> Our Customers </h1>
             </div>
