@@ -10,7 +10,7 @@ export default function Nav() {
                         <Link to="/services"> Services </Link>
                     </li>
                     <li>
-                        <Link to="/career"> Career </Link>
+                        <Link to="/careers"> Career </Link>
                     </li>
                     <li>
                     <Link to="/about"> About Us </Link>
