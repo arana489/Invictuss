@@ -3,7 +3,7 @@ import CallToAction from "./CallToAction";
 
 export default function Home(props) {
     return (
-        <div className="flex-auto h-screen bg-[#04142A]">
+        <div className="flex-auto overflow-hidden w-full h-screen bg-[#04142A]">
             <CallToAction></CallToAction>
             <div>
                 <h1 className="text-white"> Our Customers </h1>
