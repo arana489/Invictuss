@@ -1,4 +1,4 @@
-import { Route,Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Home from './components/Home'
 import Service from './components/Service'
@@ -11,22 +11,22 @@ function App() {
   return (
     <div className="App ">
 
-    <div >
-      {/* <NavBar/> */}
+      <div >
+        <NavBar />
 
-       <Routes>
-            <Route exact path="/" element={<Home/>}></Route>
-            <Route exact path="/service" element={<Service/>}></Route>
-            <Route exact path="/about" element={<About/>}></Route> 
-            <Route exact path="/careers" element={<Career/>}></Route> 
-            <Route exact path="/contact" element={<Contact/>}></Route> 
+        <Routes>
+          <Route exact path="/" element={<Home />}></Route>
+          <Route exact path="/service" element={<Service />}></Route>
+          <Route exact path="/about" element={<About />}></Route>
+          <Route exact path="/careers" element={<Career />}></Route>
+          <Route exact path="/contact" element={<Contact />}></Route>
 
 
         </Routes>
-      
-      
-    </div>
-      
+
+
+      </div>
+
     </div>
   )
 }
