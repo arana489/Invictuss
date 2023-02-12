@@ -1,0 +1,11 @@
+.landingPage {
+    height: 800px;
+    background-color: #132237;
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: start;
+    font-size: 40px;
+  }
