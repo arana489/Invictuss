@@ -3,6 +3,7 @@ import CEOMessage from "./CEOMessage";
 import Expertise from "./Expertise";
 import Mission from "./Mission";
 import Goal from "./Goal";
+import Customers from "./Customers";
 
 export default function Home(props) {
     return (
@@ -10,6 +11,7 @@ export default function Home(props) {
             <Mission> </Mission>
             <Expertise></Expertise>
             <Goal></Goal>
+            <Customers> </Customers>
             <CEOMessage></CEOMessage>
         </div >
 
