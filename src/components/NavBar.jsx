@@ -2,32 +2,29 @@ import React from "react";
 import {Link} from "react-router-dom"
 
 
-export default function NavBar(){
+export default function NavBar(props){
+    //nav bar organizes all the links
     return(
-        <div> 
-            <nav className="flex bg-cyan-800 h-14 items-center gap-x-60">
-                <Link className="text-2xl ml-6 text-sky-100" to= "/">Invcituss</Link>
+        <nav className="flex bg-light-blue h-14 items-center gap-x-60">
+            <Link className="text-2xl ml-6 text-sky-100" style={{ textDecoration: 'none' }} to="/">Invictuss</Link>
 
-                <ul className="flex gap-x-14 text-white">
+            <ul className="flex gap-x-14">
+                <li>
+                    <Link to="/service">Services</Link>
+                </li>
+                <li>
+                    <Link to="/about">About</Link>
+                </li>
+                <li>
+                    <Link to="/careers">Careers</Link>
+                </li>
+                <li>
+                    <Link to="/contact">Contact</Link>
+                </li>
 
-                    <li>
-                <Link to= "/service">Services</Link>
-                    </li>
-                    <li>
-                <Link to= "/about">About</Link>
-                    </li>
-                    <li>
-                <Link to= "/career">Career</Link>
-                    </li>
-                    <li>
-                <Link to= "/contact">Contact</Link>
-                    </li>
-
-                </ul>
-            </nav>
-            
-        </div>
-
+                
+            </ul>
+        </nav>
+       
     )
-
 }
