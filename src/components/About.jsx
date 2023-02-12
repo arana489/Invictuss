@@ -6,6 +6,7 @@ export default function About(props) {
     const whoWeAre = useRef(null);
     const whyWorkWithUs = useRef(null);
     const meetTheTeam = useRef(null);
+    const scrollTop = useRef(null);
 
     const[currPage,setCurrPage] = React.useState(false)
 
@@ -30,9 +31,8 @@ export default function About(props) {
         color: currPage=="whyWorkWithUs" ? "orange" : "black"
     }
 
-
-    return(
-        <div>
+return(
+          <div> 
             <div class="rotate">
              <ul>
                 <li onClick={() => {scrollComponent(whoWeAre,"whoWeAre")}} className = "link" style={styles1}>Who we are</li>
@@ -43,6 +43,10 @@ export default function About(props) {
         <div ref={whoWeAre} className="whoWeAre"></div>
         <div ref={meetTheTeam} className="meetTheTeam"></div>
         <div ref={whyWorkWithUs} className="whyWorkWithUs"></div>
+        <div className="static text-right list-none">
+            <li onClick={() => {scrollComponent(whoWeAre); handleClick();}} id ="test">Back To Top</li>         
+        </div>     
+        </div>
         </div>
     );
 }
