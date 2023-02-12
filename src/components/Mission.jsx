@@ -15,12 +15,16 @@ export default function Mission(props) {
                     />
                 </div>
                 <p className="w-1/2 flex-col md:text-2xl pr-20 text-left text-white">
-                Invictuss is a CyberSecurity company that offers a unique focused,
-                 yet 360, strategy that includes securing architecture, infrastructure, integration and development process by design and in a end-to-end continuous manner throughout the customers lifecycle.
-                We offer a preventive "Shift-Left" approach, ensuring organizations fix security issues/design vulnerabilities as early as possible in the process of delivery, saving valuable time and money related to security flaws.
+                    Invictuss is a CyberSecurity company that offers a unique focused,
+                    yet 360, strategy that includes securing architecture, infrastructure,
+                    integration and development process by design and in a end-to-end
+                    continuous manner throughout the customers lifecycle.
+                    We offer a preventive "Shift-Left" approach, ensuring organizations
+                    fix security issues/design vulnerabilities as early as possible in the
+                    process of delivery, saving valuable time and money related to security flaws.
                 </p>
             </div>
-            
+
         </div>
     )
 }
