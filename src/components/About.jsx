@@ -3,6 +3,7 @@ import {useRef} from "react";
 import "/src/App.css";
 
 export default function About(props) {
+    const landingPage = useRef(null);
     const whoWeAre = useRef(null);
     const whyWorkWithUs = useRef(null);
     const meetTheTeam = useRef(null);
@@ -18,7 +19,7 @@ export default function About(props) {
             behavior: 'smooth',         
         })
     }
-
+    
     const styles1 = {
         color: currPage=="whoWeAre" ? "orange" : "black"
     }
@@ -39,6 +40,12 @@ return(
                 <li onClick={() => {scrollComponent(meetTheTeam,"meetTheTeam")}}  className = "link" style={styles2}>Meet the Team</li>
                 <li onClick={() => {scrollComponent(whyWorkWithUs,"whyWorkWithUs")}} className = "link" id="test2" style={styles3}>Why Invictus</li>
              </ul>
+            </div>
+             <div ref={landingPage} className="landingPage">
+            <div>
+                <body>
+                    <p><center><font size="400px">About Us</font></center></p>
+                </body>
             </div>
         <div ref={whoWeAre} className="whoWeAre"></div>
         <div ref={meetTheTeam} className="meetTheTeam"></div>
