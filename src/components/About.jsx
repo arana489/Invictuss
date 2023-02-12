@@ -3,6 +3,7 @@ import {useRef} from "react";
 import "/src/App.css";
 
 export default function About(props) {
+    const landingPage = useRef(null);
     const whoWeAre = useRef(null);
     const whyWorkWithUs = useRef(null);
     const meetTheTeam = useRef(null);
@@ -26,7 +27,14 @@ export default function About(props) {
                 <li onClick={() => {scrollComponent(meetTheTeam); handleClick();}} className = "link" id="test1">Meet the team</li>
                 <li onClick={() => {scrollComponent(whyWorkWithUs); handleClick();}} className = "link" id="test2">Why Invictus</li>
             </ul>
-            </div>      
+        </div>     
+        <div ref={landingPage} className="landingPage">
+            <div>
+                <body>
+                    <p><center><font size="400px">About Us</font></center></p>
+                </body>
+            </div>
+        </div> 
         <div ref={whoWeAre} className="whoWeAre">
         </div>
         <div ref={meetTheTeam} className="meetTheTeam">
