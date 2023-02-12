@@ -8,8 +8,15 @@ export default function About(props) {
     const meetTheTeam = useRef(null);
 
     function handleClick () {
-         document.getElementById("test").style.color = "orange";
-         
+        document.getElementById("test").style.color = "orange";
+       }
+
+        document.getElementById("test").onclick = function(){
+            document.getElementById("test").style.color = 'orange';
+        }
+        
+        document.getElementById("changeRed").onclick = function(){
+            document.getElementById("output").style.color = 'red';
         }
         // document.getElementById("test1").style.color = "orange";
         // document.getElementById("test2").style.color = "orange";
