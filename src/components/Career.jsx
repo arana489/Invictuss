@@ -1,4 +1,5 @@
 import React from "react";
+import CareerBoxes from "./CareerBoxes";
 
 
 export default function Career() {
@@ -28,10 +29,8 @@ export default function Career() {
                         <img class=" border-orange border-8 rounded-3xl" src="images/gili.jpg" alt="jake.jpg"></img>
                     </div>
             </div>
-
-            <div class="rounded-md w-64 h-64 bg-light-gray flex">
-                <div class="text-white flex text-lg items-center">
-                        JOB TITLE</div>
+            <div className='flex justify-center'>
+                <CareerBoxes />
             </div>
         </div>
 
