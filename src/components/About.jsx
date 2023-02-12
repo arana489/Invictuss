@@ -6,6 +6,7 @@ export default function About(props) {
     const whoWeAre = useRef(null);
     const whyWorkWithUs = useRef(null);
     const meetTheTeam = useRef(null);
+    const scrollTop = useRef(null);
 
     function handleClick () {
         document.getElementById("test").style.color = "orange";
@@ -18,6 +19,8 @@ export default function About(props) {
         })
     }
 
+
+
     return(
         <div>
         <div class="rotate">
@@ -26,13 +29,18 @@ export default function About(props) {
                 <li onClick={() => {scrollComponent(meetTheTeam); handleClick();}} className = "link" id="test1">Meet the team</li>
                 <li onClick={() => {scrollComponent(whyWorkWithUs); handleClick();}} className = "link" id="test2">Why Invictus</li>
             </ul>
-            </div>      
+            </div> 
+        
         <div ref={whoWeAre} className="whoWeAre">
         </div>
         <div ref={meetTheTeam} className="meetTheTeam">
         </div>
         <div ref={whyWorkWithUs} className="whyWorkWithUs">
         </div>
+        <div className="static text-right list-none">
+            <li onClick={() => {scrollComponent(whoWeAre); handleClick();}} id ="test">Back To Top</li>         
+             </div>     
         </div>  
+
     );
 }
