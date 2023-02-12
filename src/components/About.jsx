@@ -10,7 +10,7 @@ export default function About(props) {
     function handleClick () {
         document.getElementById("test").style.color = "orange";
     }
-    
+
     const scrollComponent = (elementRef) => {
         window.scrollTo({
             top: elementRef.current.offsetTop, 
