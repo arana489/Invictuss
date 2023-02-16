@@ -1,3 +1,2 @@
 # invictuss
-#Ayush Rana
-#yayay
+Eric Shi
