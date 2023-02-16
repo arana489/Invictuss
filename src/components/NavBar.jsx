@@ -13,14 +13,18 @@ export default function NavBar(props){
             <ul className="flex gap-x-14">
                 <li>
                     <Link to="/service">Services</Link>
+                    <Link to="/service">Services</Link>
                 </li>
                 <li>
+                    <Link to="/about">About</Link>
                     <Link to="/about">About</Link>
                 </li>
                 <li>
                     <Link to="/careers">Careers</Link>
+                    <Link to="/careers">Careers</Link>
                 </li>
                 <li>
+                    <Link to="/contact">Contact</Link>
                     <Link to="/contact">Contact</Link>
                 </li>
 
