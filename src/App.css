@@ -1,1 +1,40 @@
-/* Native styling not necessary */
+.About {
+    text-align: center;
+  }
+  .rotate {
+    overflow: hidden;
+    position:fixed;
+    float: left;
+    padding-bottom: 50px;
+  }
+  .link {
+    padding: 60px 60px;
+    transform: rotate(-90deg);
+    position: left;
+    font-weight: 300;
+    font-size: medium;
+    cursor: pointer;
+  }
+  .landingPage {
+    height: 800px;
+    background-color: #132237;
+    background-image: url('./components/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: start;
+    font-size: 40px;
+  }
+  .whoWeAre {
+    height: 600px;
+    background-color: white;
+  }
+  .whyWorkWithUs {
+    height: 600px;
+    background-color: white;
+  }
+  .meetTheTeam {
+    height: 600px;
+    background-color: white;
+  }

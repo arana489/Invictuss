@@ -12,24 +12,17 @@ import Career from './components/Career'
 function App() {
 
   return (
-    <div className="App ">
-
-    <div >
+    <div className="App">
       <NavBar/>
-
        <Routes>
+
             <Route path="/" element={<Home/>}></Route>
             <Route path="/service" element={<Service/>}></Route>
             <Route path="/about" element={<About/>}></Route> 
             <Route path="/careers" element={<Career/>}></Route> 
             <Route path="/contact" element={<Contact/>}></Route> 
 
-
         </Routes>
-      
-      
-    </div>
-      
     </div>
   )
 }
