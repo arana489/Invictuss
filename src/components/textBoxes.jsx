@@ -8,17 +8,24 @@ const Box = () => {
         },
 
         {
-          title: "text1",
-          description: "Description 1",
+            title: "text2",
+            description: "Description 2",
+            placement: "flex justify-center p-5"
+        },
+
+
+        {
+          title: "text2",
+          description: "Description 2",
           placement: "flex justify-end p-5"
       },
 
 
     ];
     return (
-      <div class= ' ${career.placement}'> 
-        <div className='flex flex-row gap-x-6'>
+        <div>
             {careers.map((career) => (
+                <div className= {career.placement}> 
                 <div key={career.title}>
                     <div className="card shadow-2xl bg-light-gray opacity-50 rounded-xl w-80 h-40">
                     <div className="card body p-2"></div>
@@ -28,9 +35,10 @@ const Box = () => {
                         </p>
                     </div>
                 </div>
+                </div>
             ))}
           </div>
-        </div>
+
     )
 }
 export default Box
