@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 import Box from './textBoxes';
+import CareerBoxes from "./CareerBoxes";
 
 
 export default function Career() {
@@ -20,6 +21,12 @@ export default function Career() {
                         <img class=" border-orange border-8 rounded-3xl" src="images/gili.jpg" alt="jake.jpg"></img>
                     </div>
             </div>
+
+            <div className='flex justify-center'>
+                <CareerBoxes />
+            </div>
+            <div class= "p-96"> </div>
+
         </div>
 
     )
