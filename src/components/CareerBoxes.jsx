@@ -5,16 +5,16 @@ const CareerBoxes = () => {
 
     const careers = [
         {
-            title: "Career 1",
-            description: "Description 1"
+            title: "Doctor ",
+            description: "lots of money, fixes bones"
         },
         {
-            title: "Career 2",
-            description: "Description 2"
+            title: "Coder",
+            description: "spends a lot of time making really cool website for company"
         },
         {
-            title: "KRISSSS!!!!",
-            description: "Description 1232323232"
+            title: "Bartender",
+            description: "makes non alchoholic drinks for people"
         },  
     ];
 
