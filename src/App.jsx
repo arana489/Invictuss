@@ -3,11 +3,11 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import { BrowserRouter, Route,Routes } from 'react-router-dom'
 import NavBar from './components/NavBar'
-import Home from './components/Home'
-import Service from './components/Service'
+import Home from './components/Home/Home'
+import Service from './components/Services/Service'
 import Contact from './components/Contact'
 import About from './components/About'
-import Career from './components/Career'
+import Career from './components/Careers/Career'
 
 function App() {
 

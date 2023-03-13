@@ -13,6 +13,7 @@ module.exports = {
       'bright-orange' : '#FF9A28',
       'bright-blue' : '#4ABAE5',
       'light-gray' : '#D9D9D9',
+      'white' : '#FFFFFF',
     },
     extend: {},
   },
