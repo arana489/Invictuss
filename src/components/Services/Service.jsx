@@ -19,32 +19,26 @@ export default function Service(props){
                     {service: 'Web App Penetration Testing', description: "We will show you how to avoid deploying “swiss-cheese” apps, by hermetically sealing your applications, and continuously check for new vulnerabilities.",d:"M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88"},
                     {service: 'Compliance, Regulation, and GRC', description: "We will assist you in lining-up your environment to either regulation standard you may require, so that you can be sure you are always compliant.",d:"M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"}]
 
-    const serviceList=services.map((x) => <ServiceDropdown service={x.service} description={x.description} d={x.d}></ServiceDropdown>)
+    const serviceList=services.map((x, i) => (
+        <ServiceDropdown key={i} service={x.service} description={x.description} d={x.d}></ServiceDropdown>
+    ))
  
     return(
         <div>
-            <div className="text-center text-white">
-                <br></br>
+            <div className="my-8 text-center text-white">
                 <h2 className="text-xl">Services</h2>
                 <p className="text-lg">Description Here</p>
-                <br></br>
             </div>
             {/* Possible bar with all services laid out and linked? */}
 
 
 
             <div className="flex justify-evenly">
-                <div className="flex flex-wrap justify-evenly gap-3">
+                <div className="flex flex-wrap justify-evenly gap-3 mb-12">
                     {serviceList}
                 </div>
             </div>
             
-         
-
-            <div>
-                <br></br>
-                <br></br>
-            </div>
         </div>
         
 
