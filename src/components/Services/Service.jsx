@@ -23,10 +23,10 @@ export default function Service(props){
  
     return(
         <div>
-            <div className="text-8xl text-center">
+            <div className="text-center text-white">
                 <br></br>
-                <h2>Services</h2>
-                <p className="text-6xl">Description Here</p>
+                <h2 className="text-xl">Services</h2>
+                <p className="text-lg">Description Here</p>
                 <br></br>
             </div>
             {/* Possible bar with all services laid out and linked? */}
