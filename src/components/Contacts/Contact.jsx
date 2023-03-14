@@ -35,8 +35,8 @@ export default function Contact(){
                     <h1 className="text-lg font-bold mb-10 mt-10">Get In Touch Today</h1>
                     <h2 className="text-m mb-5">Interested in hearing more?</h2>
                     <h2 className="text-m mb-5 ">We provide free consultation for new customers!</h2>
-                    <h2 className="text-m mb-5 ">sales@invictuss.io</h2>
-                    <h2 className="text-m mb-5 ">510-378-1302</h2>
+                    <h2 className="text-m mb-5">sales@invictuss.io</h2>
+                    <h2 className="text-m mb-5 ">479-324-1235</h2>
 
                 </div>
 
