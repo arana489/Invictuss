@@ -1,19 +1,21 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import { Route,Routes } from 'react-router-dom'
+import { BrowserRouter, Route,Routes } from 'react-router-dom'
 import NavBar from './components/NavBar'
-import Home from './components/Home'
-import Service from './components/Service'
-import Contact from './components/Contact'
+import Home from './components/Home/Home'
+import Service from './components/Services/Service'
+import Contact from './components/Contacts/Contact'
 import About from './components/About'
-import Career from './components/Career'
+import Career from './components/Careers/Career'
 
 function App() {
 
   return (
-    <div className="App">
-      <NavBar/>
+    <div className="App bg-blue-bg font-dmSans">
+       <div className="pt-4 px-4">
+        <NavBar/>
+       </div>
        <Routes>
 
             <Route path="/" element={<Home/>}></Route>
