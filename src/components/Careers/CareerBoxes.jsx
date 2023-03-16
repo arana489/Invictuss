@@ -4,20 +4,20 @@ import CareerBox from './CareerBox';
 const CareerBoxes = () => {
     const careers = [
         {
-            title: "Doctor ",
-            description: "lots of money, fixes bones"
+            title: "Application Security Expert",
+            description: "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du. Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
         },
         {
-            title: "Coder",
-            description: "spends a lot of time making really cool website for company"
+            title: "Junior DevOps",
+            description: "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du. Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
         },
         {
-            title: "Bartender",
-            description: "makes non alchoholic drinks for people"
+            title: "Senior DevOps Engineer",
+            description: "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du. Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
         },
     ];
     return (
-        <div className='flex flex-row gap-x-6'>
+        <div className='flex-above gap-6'>
             {careers.map((career) => (
                 <div key={career.title}>
                     <CareerBox title={career.title} description={career.description} />
