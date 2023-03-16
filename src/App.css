@@ -1,11 +1,25 @@
-.landingPage {
-    height: 800px;
-    background-color: #132237;
-    background-image: url('images/background.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #FFFFFF;
-    text-align: start;
-    font-size: 40px;
+/* Native styling not necessary */
+
+html, body, #app, #app>div {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+  
   }
+
+h1{
+    /*xl5*/
+    font-size: 3rem;
+    line-height: 1;
+}
+
+h2{
+    font-size: 1.875rem; /*  xl3 */
+    line-height: 2.25rem;
+}
+
+h3{
+    font-size: 1.25; /*  xl */
+    line-height: 1.75rem;
+}
