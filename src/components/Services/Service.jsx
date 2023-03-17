@@ -25,9 +25,9 @@ export default function Service(props){
  
     return(
         <div>
-            <div className="my-8 text-center text-white">
+            <div className="my-24 text-center text-white">
                 <h2 className="text-xl">Services</h2>
-                <p className="text-lg">Description Here</p>
+                <p className="text-lg">What We Offer</p>
             </div>
             {/* Possible bar with all services laid out and linked? */}
 
