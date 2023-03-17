@@ -2,16 +2,19 @@ import React from 'react'
 const Box = () => {
     const careers = [
         {
-            title: "Full-time"
+            title: "Full-time",
+            icon: <img src="src/assets/Clock.svg" alt="Arrow" class="h-4 w-4 ml-2" />
         },
 
         {
-            title: "Part-time"
+            title: "Part-time",
+            icon: <img src="src/assets/Clock.svg" alt="Arrow" class="h-4 w-4 ml-2" />
         },
 
 
         {
-          title: "Freelance"
+          title: "Freelance",
+          icon: <img src="src/assets/Head.svg" alt="Arrow" class="h-4 w-4 ml-2" />
       },
 
 
@@ -21,9 +24,9 @@ const Box = () => {
             {careers.map((career) => (
                 <div className= "flex-row"> 
                 <div key={career.title}>
-                    <div className="bg-light-gray opacity-50 rounded-full w-24 h-8">
-                    <div className="card body"></div>
-                        <h2 class= "font-sans text-xs font-bold text-right pr-2 ">{career.title}</h2>
+                    <div className="text-white border border-white rounded-full flex items-center w-24 h-8">
+                    {career.icon}
+                    <span className = "flex-grow text-xs text-right mr-2">{career.title}</span>
                     </div>
                 </div>
                 </div>
