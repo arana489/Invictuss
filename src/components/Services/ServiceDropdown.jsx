@@ -12,6 +12,7 @@ const ServiceDropdown = (props) => {
         <svg fill="none" className="mx-auto" strokeWidth="1.5" viewBox="0 0 24 24" width="30%" height="30%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path strokeLinecap="round" strokeLinejoin="round" d={d}></path>
         </svg>
+        {/* comment */}
         {/* Button is equal to the service param and hides/unhides the description */}
         <button className="mx-auto">{service}</button>
       </div>
