@@ -20,10 +20,8 @@ export default function Career() {
                         and dynamic environment, Invictuss is the right place for you.
                     </h3>
                 </div>
-                <div class="text-white absolute left-3/4 bottom-2/3">
-                    (insert image here)
-                </div>
-                <div class="absolute bottom-1/4 left-1/4 w-1/2 text-center text-white">
+                <img className="object-scale-down w-[0rem] md:w-[18rem] lg:w-[18rem]  ml-auto mr-24 mt-14" src = "src/assets/CareerImg.svg" alt="Invictuss logo"/>
+            <div class="absolute bottom-1/4 left-1/4 w-1/2 text-center text-white">
                     At Invictuss, we believe in fostering a culture of excellence, where every employee
                     is empowered to take ownership of their work and make a meaningful contribution to
                     the team. We offer competitive compensation packages, comprehensive benefits, and a
@@ -35,7 +33,7 @@ export default function Career() {
             <div className='flex justify-center mx-20'>
                 <CareerBoxes />
             </div>
-            <div class= "p-96"> </div>
+            <div class= "p-96"> </div>git
 
         </div>
 
