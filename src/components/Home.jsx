@@ -1,7 +1,8 @@
 import React from "react";
 import Testimonials from "./Testimonials";
 import CallToAction from "./CallToAction";
-import HomeValues from "./HomeValues"
+import HomeValues from "./HomeValues";
+import Carousel from "./Carousel";
 
 export default function Home(props) {
     return (
@@ -9,6 +10,7 @@ export default function Home(props) {
             <CallToAction> </CallToAction>
             <HomeValues> </HomeValues>
             <Testimonials> </Testimonials>
+            <Carousel> </Carousel>
         </div >
 
 
