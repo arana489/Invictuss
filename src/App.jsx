@@ -6,7 +6,7 @@ import NavBar from './components/NavBar'
 import Home from './components/Home/Home'
 import Service from './components/Services/Service'
 import Contact from './components/Contacts/Contact'
-import About from './components/About'
+import About from './components/About/About'
 import Career from './components/Careers/Career'
 
 function App() {
