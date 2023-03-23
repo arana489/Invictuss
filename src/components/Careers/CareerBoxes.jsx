@@ -1,24 +1,10 @@
 import React from 'react';
 import CareerBox from './CareerBox';
+import json from "../../dictionary.json"
 
 const CareerBoxes = () => {
-  const careers = [
-    {
-      title: 'Application Security Expert',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du. Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.',
-    },
-    {
-      title: 'Junior DevOps',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du. Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.',
-    },
-    {
-      title: 'Senior DevOps Engineer',
-      description:
-        'Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du. Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.',
-    },
-  ];
+  const careers = json.Careers.CareerBoxes.careers
+
   return (
 <div class="flex justify-center">
   <div class="">

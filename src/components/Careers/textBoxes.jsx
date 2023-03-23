@@ -1,31 +1,16 @@
 import React from 'react'
+import json from "../../dictionary.json"
+
 const Box = () => {
-    const careers = [
-        {
-            title: "Full-time",
-            icon: <img src="src/assets/Clock.svg" alt="Arrow" class="h-4 w-4 ml-2" />
-        },
+    const careers = json.Careers.testBoxes.careers
 
-        {
-            title: "Part-time",
-            icon: <img src="src/assets/Clock.svg" alt="Arrow" class="h-4 w-4 ml-2" />
-        },
-
-
-        {
-          title: "Freelance",
-          icon: <img src="src/assets/Head.svg" alt="Arrow" class="h-4 w-4 ml-2" />
-      },
-
-
-    ];
     return (
         <div className='flex flex-row gap-x-6'>
             {careers.map((career) => (
                 <div className= "flex-row"> 
                 <div key={career.title}>
                     <div className="text-white border border-white rounded-full flex items-center w-24 h-8">
-                    {career.icon}
+                    <img src={career.icon.src} alt={career.icon.alt} class={career.icon.class} />
                     <span className = "flex-grow text-xs text-right mr-2">{career.title}</span>
                     </div>
                 </div>
