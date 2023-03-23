@@ -17,13 +17,10 @@ export default function Testimonials() {
       <div className="bg-[#04142A] rounded-lg p-6 pb-9 flex flex-col">
         <div className="relative">
           <p className="tracking-tight text-white text-m md:text-lg lg:text-lg">
-            &ldquo;Invictuss provided exceptional service in securing our cloud
-            infrastructure. Their team of experts were able to identify and
-            mitigate several vulnerabilities that could have resulted in a
-            major security breach. They were also able to provide practical
-            solutions that were easy to implement and maintain. We highly
-            recommend their services to any company looking to secure their
-            cloud infrastructure&rdquo;
+            &ldquo;Invictuss secured our cloud infrastructure, identified and
+            resolved several vulnerabilities that could have caused a major security
+            breach, and provided practical and easy-to-maintain solutions. We highly
+            recommend their services to secure any company's cloud infrastructure.&rdquo;
           </p>
         </div>
         <div className="text-white py-6">
