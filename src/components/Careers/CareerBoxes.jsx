@@ -20,17 +20,16 @@ const CareerBoxes = () => {
     },
   ];
   return (
-<div class="flex justify-center">
-  <div class="">
-    <div class='flex-above gap-6'>
-      {careers.map((career) => (
-        <div key={career.title}>
-          <CareerBox title={career.title} description={career.description} />
+    <div className="flex justify-center w-full">
+        <div className='flex-above gap-6 w-full h-screen'>
+        
+          {careers.map((career) => (
+            <div key={career.title}>
+              <CareerBox title={career.title} description={career.description} />
+            </div>
+          ))}
         </div>
-      ))}
     </div>
-  </div>
-</div>
 
   );
 };

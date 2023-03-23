@@ -20,7 +20,7 @@ const CareerBox = (props) => {
     >
       {expanded ? (
         // Expanded
-        <div className=" w-screen h-64 border-t-2 border-white">
+        <div className="h-64 border-t-2 border-white">
           <h2 className="text-white text-left text-lg">{title}</h2>
           <p className='text-white text-left p-5 w-3/4'>{description}</p>
           <Box></Box>
@@ -33,7 +33,7 @@ const CareerBox = (props) => {
         </div>
       ) : (
         // Collapsed
-<div className="w-screen h-64 p-5 border-t-2 border-white">
+<div className="h-64 p-5 border-t-2 border-white">
   <h2 className="text-white text-left text-lg">{title}</h2>
   <p className="text-white text-left p-5 w-3/4">{description}</p>
   <Box></Box>
