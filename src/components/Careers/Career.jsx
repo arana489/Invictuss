@@ -7,14 +7,11 @@ import CareerBoxes from "./CareerBoxes";
 export default function Career() {
     return (
         
-        <div class="flex-above bg-dark-blue">
+        <div class="flex-above">
             <div class="flex">
                 <div class="flex-above w-2/3 p-10">
-                    <h1 class="text-center font-bold">
+                    <h1 class="text-center font-bold text-white">
                         THE FUTURE OF CYBER-SECURITY AND THE BRIGHTEST MINDS  </h1>
-                       
-                    
-                    <Box></Box>
                 
                 </div>
                     <div class="w-1/3 p-10">
