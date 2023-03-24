@@ -7,22 +7,25 @@ import CareerBoxes from "./CareerBoxes";
 export default function Career() {
     return (
         
-        <div class="flex-above">
+        <div class="">
             <div class="flex">
-                <div class="flex-above w-2/3 p-10">
-                    <h1 class="text-center font-bold text-white">
-                        THE FUTURE OF CYBER-SECURITY AND THE BRIGHTEST MINDS  </h1>
-                
+                <div class="mt-14 ml-16 lg:ml-24">
+                    <h1 class="text-white text-lg l font-bold">
+                        Come join our mission!
+                    </h1>
+                    <p class="text-white text-mdmt-4 w-96 wrap leading-9">
+                        If you are looking for a challenging and rewarding career in a fast-paced
+                        and dynamic environment, Invictuss is the right place for you.
+                    </p>
                 </div>
-                    <div class="w-1/3 p-10">
-                        <img class=" border-orange border-8 rounded-3xl" src="/CareersPage.svg" alt="jake.jpg"></img>
-                    </div>
-            </div>
+                <div class="w-0 md:w-72 lg:w-72 p-10 ml-auto mr-24 ">
+                        <img class="" src="/CareersPage.svg" alt="jake.jpg"></img>
+                </div>
+        </div>
 
             <div className='flex justify-center'>
                 <CareerBoxes />
             </div>
-            <div class= "p-96"> </div>
 
         </div>
 
