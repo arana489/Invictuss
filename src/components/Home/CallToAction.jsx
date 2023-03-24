@@ -4,8 +4,8 @@ import { TypeAnimation } from 'react-type-animation';
 
 export default function CallToAction(props) {
     return (
-        <div className="flex flex-col text-xl md:text-xl pl-10 pt-24 text-center sm:text-left sm:pl-16  md:flex-wrap md:flex-row md:items-center">
-            <h1 className="text-left font-extrabold text-white md:w-3/4 lg:w-1/2">
+        <div className="flex text-xl md:text-xl ml-10 mt-24 text-center sm:text-left sm:pl-16 ">
+            <h1 className="text-left font-extrabold text-white">
                 Professional Cyber
                 <br />
                 <span className=" text-light-blue">
@@ -25,8 +25,8 @@ export default function CallToAction(props) {
                     />
                     </div>
                     
-                </span> <span className="text-white"> with Reliable Service</span>
-
+                </span> 
+                <span className="text-orange"> with Reliable Service</span>
             </h1>
         </div>
     )
