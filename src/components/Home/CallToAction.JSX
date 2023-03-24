@@ -25,9 +25,8 @@ export default function CallToAction(props) {
                     />
                     </div>
                     
-                </span> <span className="text-white"> with </span>
-
-                <span className=" text-orange"> Reliable </span> Service
+                </span> 
+                <span className="text-orange"> with Reliable Service</span>
             </h1>
         </div>
     )
