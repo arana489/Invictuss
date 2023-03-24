@@ -3,18 +3,18 @@ const Box = () => {
     const careers = [
         {
             title: "Full-time",
-            icon: <img src="src/assets/Clock.svg" alt="Arrow" class="h-4 w-4 ml-2" />
+            icon: <img src="../../../public/Clock.svg" alt="Arrow" class="h-4 w-4 ml-2" />
         },
 
         {
             title: "Part-time",
-            icon: <img src="src/assets/Clock.svg" alt="Arrow" class="h-4 w-4 ml-2" />
+            icon: <img src="../../../public/Clock.svg" alt="Arrow" class="h-4 w-4 ml-2" />
         },
 
 
         {
           title: "Freelance",
-          icon: <img src="src/assets/Head.svg" alt="Arrow" class="h-4 w-4 ml-2" />
+            icon: <img src="../../../public/Head.svg" alt="Arrow" class="h-4 w-4 ml-2" />
       },
 
 

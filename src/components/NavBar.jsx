@@ -7,7 +7,7 @@ export default function NavBar(props){
     return(
         <nav className="flex drop-shadow-lg text-light-blue font-extrabold  bg-navBg h-14 items-center rounded-3xl">
             <Link className="ml-6 text-sky-100" to="/">
-                <img className="object-scale-down ml-6 w-[9rem]" src = "src/assets/InvictussLogo.svg" alt="Invictuss logo"/>
+                <img className="object-scale-down ml-6 w-[9rem]" src = "../../public/InvictussLogo.svg" alt="Invictuss logo"/>
             </Link>
 
             <ul className="text-m flex gap-x-10 md:gap-x-14 lg:gap-x-24 ml-auto mr-14 font-lg">
