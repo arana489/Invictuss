@@ -15,7 +15,7 @@ export default function Career() {
                 
                 </div>
                     <div class="w-1/3 p-10">
-                        <img class=" border-orange border-8 rounded-3xl" src="images/gili.jpg" alt="jake.jpg"></img>
+                        <img class=" border-orange border-8 rounded-3xl" src="/CareersPage.svg" alt="jake.jpg"></img>
                     </div>
             </div>
 
