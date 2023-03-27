@@ -1,2 +1,1 @@
 # invictuss
-Eric Shi

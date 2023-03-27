@@ -11,8 +11,9 @@ const CareerBoxes = () => {
     {
       title: 'Junior DevOps',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du. Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.',
-    },
+        'The ideal candidate will have meaningful experience in an IT Infrastructure role and knowledge of the following: Can read/write code in at least one programming/scripting language and open to learning more /n 2+ years of experience delivering application security projects/services or equivalent industry experience in related fields such as software engineering/programming, cloud, quality assurance, etc.'
+
+},
     {
       title: 'Senior DevOps Engineer',
       description:
