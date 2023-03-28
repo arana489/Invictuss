@@ -1,7 +1,8 @@
 import React from "react";
 import Testimonials from "./Testimonials";
 import CallToAction from "./CallToAction";
-import HomeValues from "./HomeValues"
+import HomeValues from "./HomeValues";
+import Panel from "./Panel";
 
 export default function Home(props) {
     return (
@@ -12,6 +13,7 @@ export default function Home(props) {
             </div>
             
             <HomeValues/>
+            <Panel/>
             <Testimonials/>
         </div >
 

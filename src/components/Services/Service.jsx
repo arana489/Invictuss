@@ -1,6 +1,5 @@
 import React from "react";
 import ServiceDropdown from "./ServiceDropdown";
-import { HashLink as Link } from 'react-router-hash-link';
 
 
 
