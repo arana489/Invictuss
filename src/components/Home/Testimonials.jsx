@@ -15,7 +15,7 @@ export default function Testimonials() {
   return (
     <div className="flex items-center flex-col p-20">
       <div className="bg-[#04142A] rounded-lg p-6 pb-9 flex flex-col">
-        <div className="relative">
+        <div className="px-20 relative">
           <p className="tracking-tight text-white text-m md:text-lg lg:text-lg">
             &ldquo;Invictuss secured our cloud infrastructure, identified and
             resolved several vulnerabilities that could have caused a major security
@@ -23,7 +23,7 @@ export default function Testimonials() {
             recommend their services to secure any company's cloud infrastructure.&rdquo;
           </p>
         </div>
-        <div className="text-white py-6">
+        <div className="px-20 text-white py-6">
           <p className="text-white text-md">Daniel</p>
           <p className="text-md text-light-gray">Cheif Technical Officer</p>
         </div>
