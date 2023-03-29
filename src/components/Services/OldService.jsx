@@ -2,12 +2,6 @@ import React from "react";
 import ServiceDropdown from "./ServiceDropdown";
 import { HashLink as Link } from 'react-router-hash-link';
 
-
-
-
-
-
-
 export default function Service(props){
     // Array with all services, may incorporate a loop later for efficiency and better code
     const services = [{service: 'DevSecOps and Cloud Defense', description: "We will help you to 'Shift Left' and implement security  across all levels of development.", d:"M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"},
