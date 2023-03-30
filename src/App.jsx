@@ -12,7 +12,7 @@ import Footer from './Footer'
 function App() {
 
   return (
-    <div className="App bg-blue-bg font-dmSans">
+    <div className="App bg-blue-bg min-h-screen	 font-dmSans">
        <div className="pt-4 px-4">
         <NavBar/>
        </div>
