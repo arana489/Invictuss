@@ -1,32 +1,36 @@
 import React from "react";
 import ValueBox from "./ValueBox";
+import dictionary from '../../dictionary.json'
+
 
 export default function HomeValues(props) {
+
+  const HV=dictionary.Home.HomeValues
   return (
     <div className="space-x-8 pt-24">
       <h2 className="text-lg text-white font-medium mb-8 text-center">
-        Protect Your Data
+        {HV.header}
       </h2>
       <div className="lg:flex justify-center">
       <div className="pt-6 pl-10 pr-10 lg:gap-x-14 ">
           <ValueBox
             imageSrc="/Profile.svg"
-            title="Security"
-            description=" We prioritize the protection of our clients' data through cutting-edge security practices and constant monitoring for emerging threats."
+            title={HV.valueBox[0].title}
+            description={HV.valueBox[0].description}
           />
         </div>
         <div className="pt-6 pl-10 pr-10">
           <ValueBox
             imageSrc="/UserProfile.svg"
-            title="Expertise"
-            description="We are cybersecurity experts who stay up-to-date with the latest trends and technologies to provide optimal solutions."
+            title={HV.valueBox[1].title}
+            description={HV.valueBox[1].description}
           />
         </div>
         <div className="pt-6 pl-10 pr-10 ">
           <ValueBox
-            imageSrc="/CloudSecurity.svg"
-            title="Trust"
-            description="We prioritize building strong relationships with our clients based on transparency, honesty, and ethical behavior."
+            imageSrc="/Profile.svg"
+            title={HV.valueBox[2].title}
+            description={HV.valueBox[2].description}
           />
         </div>
       </div>

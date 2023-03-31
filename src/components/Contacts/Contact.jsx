@@ -1,11 +1,13 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import dictionary from '../../dictionary.json'
 
 
 
 
 export default function Contact(){
 
+    const cont=dictionary.Contact
     const[info,setInfo]=useState({name: "", email: "", services:"", company:"", message:""})
     const[submitted,setSubmitted]=useState([])
 
@@ -15,13 +17,36 @@ export default function Contact(){
         console.log(info);
       },[info, submitted]);
 
+
+      useEffect(() => {
+        console.log(submitted);
+        console.log(info);
+        if(info.services!=""){
+            const tempMess = "Hi I'd like to learn more about the " +info.services + " service"
+            setInfo((x)=>({...x, message:tempMess}))
+        }
+        else{
+            setInfo((x)=>({...x, message:""}))
+
+        }
+      },[info.services]);
+
     function submit(){
         const temp = info
+        if(info.name =="" || info.email==""){
+            alert("missing name or email")
+            return;
+        }
         setInfo({name: "", email: "", services:"", company:"", message:""})
         setSubmitted(x=>x.concat(temp))
     }
 
+    const y= cont.services
+    console.log(cont);
 
+    console.log(y);
+    const optionList=y.map(x=><option value={x}>{x}</option>)
+    console.log(optionList);
     return(
     
     
@@ -32,11 +57,11 @@ export default function Contact(){
 
             <div className="lg:flex justify-evenly">
                 <div className="text-center lg:text-left mb-10 text-white">
-                    <h1 className="text-lg font-bold mb-10 mt-10">Get In Touch Today</h1>
-                    <h2 className="text-m mb-5">Interested in hearing more?</h2>
-                    <h2 className="text-m mb-5 ">We provide free consultation for new customers!</h2>
-                    <h2 className="text-m mb-5">sales@invictuss.io</h2>
-                    <h2 className="text-m mb-5 ">479-324-1235</h2>
+                    <h1 className="text-lg font-bold mb-10 mt-10">{cont.header}</h1>
+                    <h2 className="text-m mb-5">{cont.message1}</h2>
+                    <h2 className="text-m mb-5 ">{cont.message2}</h2>
+                    <h2 className="text-m mb-5">{cont.email}</h2>
+                    <h2 className="text-m mb-5 ">{cont.number}</h2>
 
                 </div>
 
@@ -46,12 +71,12 @@ export default function Contact(){
                         <div className="grid grid-cols-2 gap-[2rem] mb-[3rem]  ">
                             <div className="flex flex-col gap-[2rem]">
                                 <div>
-                                    <label className="text-bright-orange text-sm" htmlFor="name" > Name</label><br></br>
+                                    <label className="text-bright-orange text-sm" htmlFor="name" >Name <span className="text-[#f75252]">*</span></label><br></br>
                                     <input type="text" value={info.name} id="name" className="my-2 placeholder-gray-500 p-2.5 text-l h-[45px] w-[180px] md:w-[230px] lg:[230px rounded-full" onChange={e=>setInfo((x)=>({...x, name:e.target.value}))}></input><br></br>
                                 </div>
 
                                 <div>
-                                    <label className="text-bright-orange text-sm" htmlFor="email">Email</label><br></br>
+                                    <label className="text-bright-orange text-sm" htmlFor="email">Email <span className="text-[#f75252]">*</span></label><br></br>
                                     <input type="text" value={info.email} id="email" className="my-2 p-2.5 text-sm  h-[45px] w-[180px] md:w-[230px] lg:[230px rounded-full" onChange={e=>setInfo((x)=>({...x, email:e.target.value}))}></input><br></br>
                                 </div>
                             </div>
@@ -60,11 +85,10 @@ export default function Contact(){
                                 <div>
                                     <label className="text-bright-orange text-sm" htmlFor="services">Services</label><br></br>
                                     <select type="text" value={info.services} id="phone" className="my-2 p-2.5 text-sm  h-[45px] w-[180px] md:w-[230px] lg:[230px rounded-full" onChange={e=>setInfo((x)=>({...x, services:e.target.value}))}>  
-                                        <option value="service 1">service 1</option>
-                                        <option value="service 2">service 2</option>
-                                        <option value="service 3">service 3</option>
-                                        <option value="service 4 ">service 4</option>  
-                                    </select><br></br>
+                                        <option value="">{""}</option>
+                                        {optionList}
+                                    </select>
+                                    <br></br>
                                 </div>
                                 <div className="">
                                     <label className="text-bright-orange text-sm" htmlFor="company">Company</label><br></br>
