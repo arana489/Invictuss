@@ -28,7 +28,7 @@ const CareerBox = (props) => {
           <div style={{ position: 'absolute', bottom: '20px', right: '30px'}}> {/* Add absolute positioning to child div */}
           <button className="text-white border border-white rounded-full flex items-center w-32 h-10" id='button_col'>
       <img src="/Arrow.svg" alt="Arrow" class="h-6 w-6 ml-5" />
-      <a className = "flex-grow text-right mr-6" href="mailto:cv@invictuss.io" > Apply</a>
+      <a className = "flex-grow text-right mr-6" href="mailto:sales@invictuss.io" > Apply</a>
               </button>
               </div>
         </div>
@@ -41,7 +41,7 @@ const CareerBox = (props) => {
         <div style={{ position: "absolute", bottom: "20px", right: "30px" }}>
           <button className="text-white border border-white rounded-full flex items-center w-32 h-10" id='button_col'>
             <img src="/Arrow.svg" alt="Arrow" class="h-6 w-6 ml-5" />
-            <a className = "flex-grow text-right mr-6" href="mailto:cv@invictuss.io"> Apply</a>
+            <a className = "flex-grow text-right mr-6" href="mailto:sales@invictuss.io"> Apply</a>
           </button>
         </div>
       </div>
