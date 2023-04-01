@@ -2,6 +2,11 @@
 
 export const ServiceContentList = [
     {
+        title: "Services",
+        short_desc: "Standard",
+        long_desc: "Standard"
+    },
+    {
         title: "DevSecOps",
         //icons: N/A,
         short_desc: "We will help you to 'Shift Left' and implement security  across all levels of development.",
@@ -23,13 +28,8 @@ export const ServiceContentList = [
         long_desc: "details"
     },
     {
-        title: "On-Prem",
+        title: "On-Prem Hardening",
         short_desc: "Our architectural design will provide a comprehensive defense strategy across the board: IT, IOT and OT, and allow you to shorten your TTM (Time to Market).",
-        long_desc: "details"
-    },
-    {
-        title: "Hardening",
-        short_desc: "We provide information security leadership, security guidance to senior management and lead the organization’s information security program, thus reducing your managerial overhead.",
         long_desc: "details"
     },
     {
