@@ -2,11 +2,6 @@
 
 export const ServiceContentList = [
     {
-        title: "Services",
-        short_desc: "Standard",
-        long_desc: "Standard"
-    },
-    {
         title: "DevSecOps",
         //icons: N/A,
         short_desc: "We will help you to 'Shift Left' and implement security  across all levels of development.",

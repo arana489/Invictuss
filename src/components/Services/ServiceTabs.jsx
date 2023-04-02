@@ -9,8 +9,8 @@ function ServiceTabs() {
     };
 
     return(
-        <div>
-            <div className="p-20 text-white text-m flex gap-x-10 md:gap-x-14 lg:gap-x-24 ml-auto mr-14 font-lg">
+        <div className="text-center">
+            <div className="border-b-8 pt-20 pb-5 text-white text-m flex justify-center gap-x-10 md:gap-x-14 lg:gap-x-24 font-lg">
                 <button onClick={() => handleServiceSelect("DevSecOps")}>DevSecOps</button>
                 <button onClick={() => handleServiceSelect("SSDLC")}>SSDLC</button>
                 <button onClick={() => handleServiceSelect("CI/CD Architecture")}>CI/CD Architecture</button>
