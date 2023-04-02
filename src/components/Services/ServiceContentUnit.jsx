@@ -8,7 +8,7 @@ function ServiceContentUnit({service}) {
     return (
         <div>
             {service_obj ? (
-                <div>
+                <div className="min-h-screen">
                     <div className="text-xl text-center text-white">
                         {service_obj.title}
                     </div>
@@ -20,7 +20,7 @@ function ServiceContentUnit({service}) {
                     </div>
                 </div>
             ) : (
-                <div>
+                <div className="min-h-screen">
                     <div className="text-xl text-center text-white">
                         Our Services
                     </div>
