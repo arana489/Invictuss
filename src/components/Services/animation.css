@@ -1,0 +1,16 @@
+@keyframes slide-up {
+    0% {
+      transform: translateY(100%) scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+    }
+}
+  
+.animate-slide-up {
+    animation: slide-up 1.5s ease-in-out forwards;
+    animation-delay: calc(var(--delay, 0) * 0.2s);
+}
+  
