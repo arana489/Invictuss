@@ -11,7 +11,7 @@ function ServiceTabs() {
 
     return(
         <div>
-            <div className="text-center mb-20 ml-10 mr-10 transform scale-y-0 opacity-0 animate-slide-up" style={{ "--delay": "1" }}>
+            <div className="text-center mb-20 ml-10 mr-10 transform opacity-0 animate-slide-up" style={{ "--delay": "1" }}>
                 <div className="border-b-8 border-white pt-20 pb-5 text-m flex justify-center gap-x-6 md:gap-x-10 lg:gap-x-20 font-lg"
                      style={{ '--text-color': 'var(--orange)' }}>
                     <button className="text-white hover:text-orange transition duration-500 ease-in-out"
@@ -40,7 +40,7 @@ function ServiceTabs() {
                             onClick={() => handleServiceSelect("Compliance")}>Compliance</button>
                 </div>
             </div>
-            <div className="transform scale-y-0 opacity-0 animate-slide-up w-full h-screen" style={{ "--delay": "2" }}>
+            <div className="transform opacity-0 animate-slide-up w-full h-screen" style={{ "--delay": "2" }}>
                 <ServiceContentUnit service={selectedService} name="test"/>
             </div>
         </div>
