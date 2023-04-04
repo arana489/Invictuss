@@ -3,7 +3,7 @@ import ServiceContentUnit from "./ServiceContentUnit";
 import './animation.css';
 
 function ServiceTabs() {
-    const [selectedService, setSelectedService] = useState("");
+    const [selectedService, setSelectedService] = useState("DevSecOps");
 
     const handleServiceSelect = (service) => {
         setSelectedService(service);
