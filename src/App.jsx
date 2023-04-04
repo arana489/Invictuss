@@ -1,19 +1,18 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
 import { BrowserRouter, Route,Routes } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Home from './components/Home/Home'
 import Service from './components/Services/Service'
 import Contact from './components/Contacts/Contact'
-import About from './components/About'
+import About from './components/About/About'
 import Career from './components/Careers/Career'
+import Footer from './Footer'
 
 function App() {
 
   return (
-    <div className="App bg-blue-bg font-dmSans">
-       <div className="pt-4 px-4">
+    <div className="bg-blue-bg font-dmsans">
+      <div className="top-0 sticky z-50 pt-4">
         <NavBar/>
        </div>
        <Routes>
@@ -25,6 +24,7 @@ function App() {
             <Route path="/contact" element={<Contact/>}></Route> 
 
         </Routes>
+        <Footer></Footer>
     </div>
   )
 }

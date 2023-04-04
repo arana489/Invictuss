@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
 import Box from './textBoxes';
-import './Button.css'
 
 const CareerBox = (props) => {
   const { title, description } = props;
@@ -21,30 +20,31 @@ const CareerBox = (props) => {
     >
       {expanded ? (
         // Expanded
-        <div className="h-64 border-t-2 border-white">
+        <div className=" w-screen h-64 border-t-2 border-white">
           <h2 className="text-white text-left text-lg">{title}</h2>
           <p className='text-white text-left p-5 w-3/4'>{description}</p>
           <Box></Box>
           <div style={{ position: 'absolute', bottom: '20px', right: '30px'}}> {/* Add absolute positioning to child div */}
-          <button className="text-white border border-white rounded-full flex items-center w-32 h-10" id='button_col'>
+          <button className="text-white border border-white rounded-full flex items-center w-32 h-10">
       <img src="/Arrow.svg" alt="Arrow" class="h-6 w-6 ml-5" />
-      <a className = "flex-grow text-right mr-6" href="mailto:sales@invictuss.io" > Apply</a>
+      <span className = "flex-grow text-right mr-6">Apply</span>
               </button>
               </div>
         </div>
       ) : (
         // Collapsed
-      <div className="h-64 p-5 border-t-2 border-white">
-        <h2 className="text-white text-left text-lg">{title}</h2>
-        <p className="text-white text-left p-5 w-3/4">{description}</p>
-        <Box></Box>
-        <div style={{ position: "absolute", bottom: "20px", right: "30px" }}>
-          <button className="text-white border border-white rounded-full flex items-center w-32 h-10" id='button_col'>
-            <img src="/Arrow.svg" alt="Arrow" class="h-6 w-6 ml-5" />
-            <a className = "flex-grow text-right mr-6" href="mailto:sales@invictuss.io"> Apply</a>
-          </button>
-        </div>
-      </div>
+<div className="w-screen h-64 p-5 border-t-2 border-white">
+  <h2 className="text-white text-left text-lg">{title}</h2>
+  <p className="text-white text-left p-5 w-3/4">{description}</p>
+  <Box></Box>
+  <div style={{ position: "absolute", bottom: "20px", right: "30px" }}>
+    <button className="text-white border border-white rounded-full flex items-center w-32 h-10">
+      <img src="/Arrow.svg" alt="Arrow" class="h-6 w-6 ml-5" />
+      <span className = "flex-grow text-right mr-6">Apply</span>
+    </button>
+  </div>
+</div>
+
       )}
     </div>
   );

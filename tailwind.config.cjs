@@ -16,12 +16,8 @@ module.exports = {
       'white' : '#FFFFFF',
       'blue-bg': '#04142A',
       'contactBlue':'#132237',
-      'navBg':'#0B1B30',
+      'nav':'#0B1B30',
       
-    },
-    fontFamily: {
-      'dmSans': ['DM Sans', 'sans-serif'],
-      'ssp': ['Source Serif Pro', 'serif'],
     },
     fontSize:
     {
@@ -31,7 +27,18 @@ module.exports = {
       'sm':'1rem',
       'xs':'0.75rem'
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'dmsans': ['DM Sans', 'sans-serif'],
+        'ssp': ['Source Serif Pro', 'serif'],
+      },
+      animation: {
+        
+      },
+      keyframes: {
+        
+      }
+    },
   },
   plugins: [],
 }
