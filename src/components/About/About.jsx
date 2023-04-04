@@ -20,7 +20,7 @@ return(
                         <p className="text-center tracking-tight mr-[10%] lg:w-[60%] text-white font-xs md:text-m lg:text-m">
                             {ab.OurApproach.info}
                         </p>
-                        <img class="object-scale-down w-[0rem]  lg:w-[20rem] mt-[-5%] lg:mr-14" src="/CareersPage.svg" alt="jake.jpg"></img>
+                        <img class="object-scale-down w-[0rem]  lg:w-[18rem] mt-[-5%] lg:mr-14" src={ab.TopImage} alt="jake.jpg"></img>
                     </div>
             </div>
             <hr class="h-px ml-16 mr-16 my-8 text-white border-t-2 "></hr>

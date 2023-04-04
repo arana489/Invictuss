@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 import { BrowserRouter, Route,Routes } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Home from './components/Home/Home'
@@ -12,8 +11,8 @@ import Footer from './Footer'
 function App() {
 
   return (
-    <div className="App bg-blue-bg min-h-screen	 font-dmSans">
-       <div className="pt-4 px-4">
+    <div className="bg-blue-bg font-dmsans">
+      <div className="top-0 sticky z-50 pt-4">
         <NavBar/>
        </div>
        <Routes>
