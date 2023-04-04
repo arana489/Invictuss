@@ -1,12 +1,21 @@
 import React from "react"
+import { useRef, useEffect } from "react";
 import {ServiceContentList} from "./ServiceContentList";
 
 // "service" is the string of the service which was clicked on
-function ServiceContentUnit({service}) { 
-    const service_obj = ServiceContentList.find(content => content.title === service)
+function ServiceContentUnit(props) { 
+    const service_obj = ServiceContentList.find(content => content.title === props.service)
+    const contentRef = useRef(null); // is it good to use null here?
+
+    // resets animation when a new content is chosen
+    useEffect(() => {
+        contentRef.current.classList.remove("animate-content");
+        void contentRef.current.offsetWidth; // triggers refresh to restart animation
+        contentRef.current.classList.add("animate-content");
+    }, [props.service])
 
     return (
-        <div>
+        <div ref={contentRef} className="transform opacity-0 animate-content">
             {service_obj ? (
                 <div className="min-h-screen">
                     <div class="flex justify-center items-center">
