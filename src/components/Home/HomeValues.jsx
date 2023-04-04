@@ -6,8 +6,9 @@ import dictionary from '../../dictionary.json'
 export default function HomeValues(props) {
 
   const HV=dictionary.Home.HomeValues
+  
   return (
-    <div className="space-x-8 pt-24">
+    <div className="">
       <h2 className="text-lg text-white font-medium mb-8 text-center">
         {HV.header}
       </h2>

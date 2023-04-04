@@ -5,7 +5,7 @@
         {
             "top": "Profesional Cyber",
             "middle": ["Security", 3000, "Protection", 3000, "Company", 3000],
-            "bottom": "with Reliable Service"
+            "bottom": "With Reliable Service"
         },
         "HomeValues":
         {
@@ -33,7 +33,7 @@
         },
         "Testimonials":
         {
-            "mainQuote": "&quot;Invictuss provided exceptional service in securing our cloud infrastructure. Their team of experts were able to identify and mitigate several vulnerabilities that could have resulted in a major security breach. They were also able to provide practical solutions that were easy to implement and maintain. We highly recommend their services to any company looking to secure their cloud infrastructure&quot;",
+            "mainQuote": "\"Invictuss provided exceptional service in securing our cloud infrastructure. Their team of experts were able to identify and mitigate several vulnerabilities that could have resulted in a major security breach. They were also able to provide practical solutions that were easy to implement and maintain. We highly recommend their services to any company looking to secure their cloud infrastructure\"",
             "person": "Daniel",
             "role": "Chief Technical Officer",
             "testimonials": [

@@ -16,7 +16,7 @@ export default function Testimonials() {
 
 
   return (
-    <div className="flex items-center flex-col p-20">
+    <div className="flex items-center flex-col">
       <div className="bg-[#04142A] rounded-lg p-6 pb-9 flex flex-col">
         <div className="relative">
           <p className="tracking-tight text-white text-m md:text-lg lg:text-lg">
