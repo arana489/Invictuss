@@ -51,6 +51,7 @@
         }
     },
     "About":{
+        "TopImage":"/AboutPage.svg",
         "OurApproach":{
             "header":"Our Approach",
             "info":"Invictuss is a CyberSecurity company with a unique 360 approach. We offer a “Shift-Left“ approach to prevent security issues and design vulnerabilities. Our strategy reduces incidents and maximizes early detection, optimizing resources spent on security. We have almost 40 years of experience securing highly-sensitive information environments, Operation Technology (OT), cyber defense systems, and software development. Our experience covers strategy, architecture, integration, DevOps, and automation."
@@ -142,45 +143,55 @@
     },
     "Services":
     {
-        "services" :
-           [
+        "services": [
             {
-                "service": "DevSecOps and Cloud Defense", 
-                "description": "We will help you to 'Shift Left' and implement security  across all levels of development.", 
-                "d":"M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
+                "title": "DevSecOps",
+                "icon": "/placeholder_icon.svg",
+                "short_desc": "We will help you to 'Shift Left' and implement security  across all levels of development.",
+                "long_desc": "What Is DevSecOps? In the traditional development model before DevOps, developers and IT teams were kept apart, with the personnel who deployed the code having little interaction with those who created it. These teams often had different objectives and saw little reason to collaborate. When DevOps emerged, automation and collaboration allowed teams to integrate their efforts around a common objective. Automated testing and continuous integration enabled faster development and deployment while reducing human error. DevOps is a cultural approach where project teams include everyone involved in the process, from developers and QA team to the project manager. While the DevOps model increased development velocity while improving quality, there remained a risk that the continuous integration / continuous delivery (CI/CD) pipeline introduces security vulnerabilities into the market. DevSecOps, a variation on the DevSecOps organizational pattern, seeks to address this risk by integrating security into the entire DevOps process. Security has often been treated as an afterthought or an inconvenience that slows down progress. While security should be a priority, it tends to get pushed aside to be addressed later. DevSecOps aims to shift the attitude of the project team by raising security awareness across all levels and implementing security measures from the start, within the build pipeline. This requires the careful cultivation of a security mindset in every employee to ensure that security features are always taken into consideration."
             },
-
             {
-                "service": "SSDLC + Security Awareness", 
-                "description": "We will secure your entire software development pipeline, starting from the first line of code, to the last deployment in Production.", 
-                "d":"M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"
+                "title": "SSDLC",
+                "icon": "/placeholder_icon.svg",
+                "short_desc": "We will secure your entire software development pipeline, starting from the first line of code, to the last deployment in Production.",
+                "long_desc": "A Secure SDLC (SSDLC) incorporates security into all stages of the software development life cycle (SDLC), including planning, design, build, release, maintenance, and updates. It is often implemented during a transition to DevSecOps and involves applying security best practices and securing the development environment. A secure SDLC unites stakeholders from development and security teams, ensuring that the software application is protected without delay. Developers can learn secure coding frameworks and use automated tools to detect security risks and vulnerabilities. Management teams can perform a gap analysis to create a strategic methodology for a secure product. Establishing and enforcing security policies helps achieve a streamlined SSDLC, and hiring security experts can improve security preparedness."
             },
-            
             {
-                "service": "CI/CD Architecture and Optimization", 
-                "description": "We will show you how you can have a robust pipeline, and also have it be as efficient and secure as possible.", 
-                "d":"M21.75 17.25v-.228a4.5 4.5 0 00-.12-1.03l-2.268-9.64a3.375 3.375 0 00-3.285-2.602H7.923a3.375 3.375 0 00-3.285 2.602l-2.268 9.64a4.5 4.5 0 00-.12 1.03v.228m19.5 0a3 3 0 01-3 3H5.25a3 3 0 01-3-3m19.5 0a3 3 0 00-3-3H5.25a3 3 0 00-3 3m16.5 0h.008v.008h-.008v-.008zm-3 0h.008v.008h-.008v-.008z"
+                "title": "CI/CD Architecture",
+                "icon": "/placeholder_icon.svg",
+                "short_desc": "We will show you how you can have a robust pipeline, and also have it be as efficient and secure as possible.",
+                "long_desc": "In modern cloud platforms, it's important to align infrastructure and application deployment to reduce complications caused by managing them separately. The application infrastructure can be defined in code, and managing updates to infrastructure and application code in sync can help avoid natural drift. This can be done by passing configuration values at runtime, managing migration in code, and running the same validations for infrastructure and application changes within the pipeline. Validating changes across the entire stack can help avoid errors due to misconfiguration and identify errors earlier in the pipeline process, ensuring that the application meets functional and non-functional requirements."
             },
-
-            {"service": "Visibility Enhancement", 
-            "description": "We will show you how you can have a robust pipeline, and also have it be as efficient and secure as possible.",
-            "d":"M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"},
-
-            {"service": "On-prem Hardening and Architecture", 
-            "description": "Our architectural design will provide a comprehensive defense strategy across the board: IT, IOT and OT, and allow you to shorten your TTM (Time to Market).",
-            "d":"M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33"},
-
-            {"service": "CISO as a Service", 
-            "description": "We provide information security leadership, security guidance to senior management and lead the organization’s information security program, thus reducing your managerial overhead.",
-            "d":"M12 9.75v6.75m0 0l-3-3m3 3l3-3m-8.25 6a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z"},
-
-            {"service": "Web App Penetration Testing", 
-            "description": "We will show you how to avoid deploying “swiss-cheese” apps, by hermetically sealing your applications, and continuously check for new vulnerabilities.",
-            "d":"M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88"},
-
-            {"service": "Compliance, Regulation, and GRC", 
-            "description": "We will assist you in lining-up your environment to either regulation standard you may require, so that you can be sure you are always compliant.",
-            "d":"M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"}]
+            {
+                "title": "Visibility Enhancement",
+                "icon": "/placeholder_icon.svg",
+                "short_desc": "We will show you how you can have a robust pipeline, and also have it be as efficient and secure as possible.",
+                "long_desc": "Visibility enhancement and Software Composition Analysis (SCA) are two critical aspects of managing open source code, which has become ubiquitous in proprietary applications, making up an estimated 60-80% of their code bases. SCA tools are a segment of the application security testing (AST) market that helps manage open source component use by performing automated scans of an application’s code base, containers, and registries to identify all open source components, their license compliance data, and any security vulnerabilities. Some SCA tools also prioritize and auto remediate open source vulnerabilities, providing organizations with much-needed visibility into open source use and helping them mitigate security risks. As open source components have become the main building blocks in software applications across all verticals, SCA should be an essential part of any organization's application security portfolio."
+            },
+            {
+                "title": "On-Prem Hardening",
+                "icon": "/placeholder_icon.svg",
+                "short_desc": "Our architectural design will provide a comprehensive defense strategy across the board: IT, IOT and OT, and allow you to shorten your TTM (Time to Market).",
+                "long_desc": "Our architecture provides a defense strategy for all components, including IT, IOT, and OT. The rapid growth of cybercrime and the confining of security to specific functions have made it necessary to implement a multi-layered and in-depth protective mechanism. Our system hardening architecture guide enables system administrators to apply several security measures at various layers, including the host, application, operating systems, and physical layer, to protect valuable company assets and data."
+            },
+            {
+                "title": "CISO",
+                "icon": "/placeholder_icon.svg",
+                "short_desc": "We will help you to 'Shift Left' and implement security  across all levels of development.",
+                "long_desc": "CISOaaS, or Chief Information Security Officer-as-a-Service, provides information security leadership and guidance to senior management, driving an organization's information security program. This cost-effective service offers expertise in maintaining information security systems and managing risk, extending an organization's capabilities, and reducing risks and incidents that may cause business losses. CISOaaS helps organizations identify their information security maturity, threat landscape, and regulatory requirements. It provides a roadmap to implement and maintain an information security strategy, reducing risk and raising security maturity. This service offers access to a pool of specialized cyber security professionals, lowers costs, reduces risk, and secures cross-business support to achieve information security goals. The engagement process involves scoping, assessment, gap analysis, implementation, evaluation, and continual maintenance. This service is suitable for organizations with lean IT functions, upgrading their cybersecurity strategy, or designing the right architecture to mitigate risks posed by cybercrime."
+            },
+            {
+                "title": "PT",
+                "icon": "/placeholder_icon.svg",
+                "short_desc": "We will help you to 'Shift Left' and implement security  across all levels of development.",
+                "long_desc": "Web Application Penetration Testing (WAPT) helps identify vulnerabilities and security issues in web applications, allowing organizations to take action before users' data is compromised. WAPT provides a better understanding of web application attack surfaces and helps Web Security Professionals to understand how web applications work, what technologies are used, and which vulnerabilities attackers exploit. WAPT is done by web security professionals using various tools and techniques, including automated and manual scans, to identify vulnerabilities in client-side code and known web server and framework-related vulnerabilities. This testing is performed in a safe environment without worrying about production systems being brought down during testing. Web Penetration Testers follow steps to gain an understanding of how the target application works, scan for vulnerabilities, exploit vulnerabilities to gain further information, and fix them if possible."
+            },
+            {
+                "title": "Compliance",
+                "icon": "/placeholder_icon.svg",
+                "short_desc": "We will help you to 'Shift Left' and implement security  across all levels of development.",
+                "long_desc": "Information security compliance is critical for organizations of all sizes to protect their data and information from cyber threats and comply with national and international laws and regulatory requirements. Governance, Risk, and Compliance (GRC) are necessary functions within enterprises that ensure compliance. Information security compliance means meeting rules or standards about the protection of data and information, such as the Sarbanes-Oxley Act (SOX), the General Data Protection Regulation (GDPR), the Federal Information Security Management Act (FISMA), the Health Insurance Portability and Accountability Act (HIPAA), and the Payment Card Industry Data Security Standard (PCI-DSS), among others. The most commonly used IT security compliance standard is the ISO/IEC 27001, which sets out a best practice approach for providing appropriate security for data and information. IT Governance offers expert individuals who have held leadership CISO roles, skilled at ensuring your organization is prepared to deal with data breaches and incidents, and can manage and communicate with regulators for all data privacy and information security requests on your behalf."
+            }]
     },
     "Contact":{
         "header":"Get In Touch Today",
