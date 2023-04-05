@@ -23,10 +23,10 @@ function ServiceContentUnit(props) {
                 <div className="font-bold text-xl text-center text-white">
                     {service_obj.title}
                 </div>
-                <div className="text-lg ml-10 mr-10 text-center text-white mb-10">
+                <div className="text-m ml-10 mr-10 text-center text-white mb-10">
                     {service_obj.short_desc}
                 </div>
-                <div className="text-m mb-20 ml-20 mr-20 text-left text-white">
+                <div className="text-s mb-20 ml-20 mr-20 text-left text-white">
                     {service_obj.long_desc}
                 </div>
             </div>
