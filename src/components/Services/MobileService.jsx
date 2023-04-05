@@ -2,7 +2,7 @@ import React from "react";
 import ServiceDropdown from "./ServiceDropdown";
 import { HashLink as Link } from 'react-router-hash-link';
 
-export default function OldService(props){
+export default function MobileService(props){
     // Array with all services, may incorporate a loop later for efficiency and better code
     const services = [{service: 'DevSecOps and Cloud Defense', description: "We will help you to 'Shift Left' and implement security  across all levels of development.", d:"M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"},
                     {service: 'SSDLC + Security Awareness', description: "We will secure your entire software development pipeline, starting from the first line of code, to the last deployment in Production.", d:"M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"},
@@ -21,7 +21,7 @@ export default function OldService(props){
         <div>
             <div className="my-8 text-center text-white">
                 <h2 className="text-xl">Services</h2>
-                <p className="text-lg">Description Here</p>
+                <p className="text-lg">What We Offer</p>
             </div>
             {/* Possible bar with all services laid out and linked? */}
 
