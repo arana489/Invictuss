@@ -26,6 +26,6 @@
 }
 
 .animate-content {
-  animation: eighth-slide-up 1.5s ease-in-out forwards;
+  animation: eighth-slide-up 1.25s ease-in-out forwards;
   animation-delay: calc(var(--delay, 0) * 0.1s);
 }
