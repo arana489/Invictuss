@@ -15,7 +15,7 @@ function ServiceContentUnit(props) {
     }, [props.service])
 
     return (
-        <div ref={contentRef} className="transform opacity-0 animate-content">
+        <div ref={contentRef} className="transform opacity-0 animate-content p-20">
             <div className="min-h-screen">
                 <div class="flex justify-center items-center">
                     <img src={service_obj.icon}/>
