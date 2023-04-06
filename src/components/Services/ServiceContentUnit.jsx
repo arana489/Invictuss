@@ -15,10 +15,13 @@ function ServiceContentUnit(props) {
     }, [props.service])
 
     return (
-        <div ref={contentRef} className="transform opacity-0 animate-content lg:p-20 md:p-15">
+        <div ref={contentRef} className="transform opacity-0 animate-content lg:p-15 md:p-15">
             <div className="min-h-screen">
-                <div class="flex justify-center items-center">
-                    <img src={service_obj.icon}/>
+                <div className="flex justify-center items-center">
+                <svg fill="none" className="mx-auto" strokeWidth="1.5" stroke="white" viewBox="0 0 24 24" width="10%" height="10%">
+                <path strokeLinecap="round" strokeLinejoin="round" d={service_obj.icon}>
+                </path>
+                </svg>
                 </div>
                 <div className="font-bold lg:text-xl md:text-lg text-center text-white">
                     {service_obj.title}
