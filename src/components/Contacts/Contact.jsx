@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 
 
 
@@ -18,23 +18,37 @@ export default function Contact(){
     function submit(){
         const temp = info
         setInfo({name: "", email: "", services:"", company:"", message:""})
-        setSubmitted(x=>x.concat(temp))
+        //setSubmitted(x=>x.concat(temp))
+        emailjs.send('service_key_test', 'template_key_test', info, 'Xe-GzRGFE7-UHda0d')
+            .then(response => {
+                console.log('SUCCESS!', response);
+                setSubmitted({
+                    name: "", 
+                    email: "", 
+                    services:"", 
+                    company:"", 
+                    message:""
+                });
+                setStatus('SUCCESS');
+            }, error => {
+                console.log('FAILED...', error);
+            });
     }
 
 
     return(
     
         <div className="p-16 ">
-    
             <div className="lg:flex justify-evenly">
-                <div className="text-center lg:text-left mb-10 text-white">
-                    <h1 className="text-lg font-bold mb-10 mt-10">Get In Touch Today</h1>
+                <div className="text-center lg:text-left mb-2 text-white">
+                    <h1 className="text-xl font-extrabold mb-8 mt-10">Get In Touch Today</h1>
                     <h2 className="text-m mb-5">Interested in hearing more?</h2>
                     <h2 className="text-m mb-5 ">We provide free consultation for new customers!</h2>
-                    <h2 className="text-m mb-5">sales@invictuss.io</h2>
-                    <h2 className="text-m mb-5 ">479-324-1235</h2>
-
+                    <h2 className="text-m mb-5">Email: sales@invictuss.io</h2>
+                    <h2 className="text-m mb-[80px]">Phone: (479) 324-1235</h2>
+                    <img class="bg-none w-100 h-80" src="cust_service.png"></img>
                 </div>
+              
 
 
                 <div className="border border-light-blue bg-contactBlue lg:m-0 m-auto w-[30rem] md:w-[35rem] lg:w-[35rem] h-[38rem] rounded-xl flex items-center justify-center">
@@ -72,14 +86,18 @@ export default function Contact(){
                         </div>
                         <div className="mb-[29px]">
                             <label className="text-light-blue text-sm" htmlFor="message">Message</label><br></br>
-                            <textarea name="message" form="contactform" value={info.message} className="text-white border border-light-blue focus:outline-none my-2 p-2.5 text-sm h-[128.64px] md:w-[490.56px] lg:md:w-[490.56px] w-[400px] rounded-xl placeholder-light-gray placeholder-opacity-25 bg-blue-bg" placeholder="Leave a message..." onChange={e => setInfo((x) => ({ ...x, message: e.target.value }))}></textarea><br></br>
+                            <textarea name="message" form="contactform" value={info.message} className="text-white border border-light-blue focus:outline-none my-2 p-2.5 resize-none text-sm h-[128.64px] md:w-[490.56px] lg:md:w-[490.56px] w-[400px] rounded-xl placeholder-light-gray placeholder-opacity-25 bg-blue-bg" placeholder="Leave a message..." onChange={e => setInfo((x) => ({ ...x, message: e.target.value }))}></textarea><br></br>
                         </div>
-                        <div>
-                            <button type="button" id ="submit" onClick ={submit} className="border border-light-blue p-2.5 text-s mt-4 h-[45px] w-[160px] rounded-xl bg-blue-bg hover:bg-darkest-blue text-light-blue "> Send Message</button>
+                        <div class="flex overflow-hidden">
+                            <div>
+                                <button type="button" id ="submit" onClick ={submit} className="border border-light-blue p-2.5 text-s mt-4 h-[45px] w-[160px] rounded-xl bg-blue-bg hover:bg-darkest-blue text-light-blue "> Send Message</button>
+                            </div>
+                            <div>
+                                <img class="ml-[265px]" src="/contact_us_1.png"></img>
+			                </div>
                         </div>
                     </form>
                 </div>
-
             </div>
         </div>
     )
