@@ -33,7 +33,7 @@
         },
         "Testimonials":
         {
-            "mainQuote": "\"Invictuss provided exceptional service in securing our cloud infrastructure. Their team of experts were able to identify and mitigate several vulnerabilities that could have resulted in a major security breach. They were also able to provide practical solutions that were easy to implement and maintain. We highly recommend their services to any company looking to secure their cloud infrastructure\"",
+            "mainQuote": "Invictuss provided exceptional service in securing our cloud infrastructure. Their team of experts were able to identify and mitigate several vulnerabilities that could have resulted in a major security breach. They were also able to provide practical solutions that were easy to implement and maintain. We highly recommend their services to any company looking to secure their cloud infrastructure",
             "person": "Daniel",
             "role": "Chief Technical Officer",
             "testimonials": [
@@ -46,6 +46,16 @@
                 "name": "Emily",
                 "role": "Production Engineer",
                 "text": "Invictuss understands the importance of modern technology in today's business landscape. With their help, we were able to implement modern OT solutions that have transformed our company. The new technology has greatly improved our efficiency and reduced downtime, which has had a positive impact on our revenue. Their expertise in OT is unmatched, and I would highly recommend their services."
+            },
+            {
+                "name": "Sasha",
+                "role": "Operations Manager",
+                "text": "Invictuss helped us bring our technology into the modern age. We were struggling with outdated systems that were holding us back, but with their expertise in OT, we were able to implement IoT devices and cloud-based systems that have greatly improved our efficiency. Their knowledge of OT is impressive, and I highly recommend their services to anyone looking to modernize their technology."
+            },
+            {
+                "name": "CEO",
+                "role": "Company XYZ",
+                "text": "Invictuss helped us identify and mitigate risks to our OT systems, which was critical for our production line. Their team of experts were able to provide valuable insights and practical solutions that were tailored to our specific needs. We now have peace of mind knowing our systems are secure and protected."
             }
             ]
         }

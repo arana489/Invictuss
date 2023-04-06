@@ -14,7 +14,7 @@ export default function NavBar(props){
     }, []);
 
     const handleScroll = () => {
-        if (window.pageYOffset > 0) {
+        if (window.pageYOffset > 50) {
             setIsScrolled(true);
         } else {
             setIsScrolled(false);

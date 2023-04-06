@@ -2,7 +2,11 @@ import React from "react";
 import ServiceTabs from "./ServiceTabs";
 import './animation.css';
 
+
+
+
 export default function Service(){
+
     return(
         <div>
             <div className="mt-20 text-lg text-light-blue text-center transform opacity-0 animate-slide-up" style={{ "--delay": "0" }}>

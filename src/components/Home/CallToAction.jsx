@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from 'react-type-animation';
 import dictionary from '../../dictionary.json'
-import { TiArrowForward, TiMail } from 'react-icons/ti'
+import { HiArrowNarrowRight } from 'react-icons/hi'
 
 export default function CallToAction(props) {
 
@@ -25,7 +25,7 @@ export default function CallToAction(props) {
 
                     <span className="text-orange ml-[0.2rem]"> {Home.CallToAction.bottom}</span>
                 </div>
-                <Link className="flex items-center hover:scale-105 hover:text-white hover:drop-shadow-xl duration-300 drop-shadow-lg bg-nav w-fit py-2 px-6 rounded-xl mt-8 text-light-blue font-normal tracking-normal" to="/service">Get Started<TiArrowForward className="ml-[0.3rem] -translate-y-[0.03rem]" /></Link>
+                <Link className="flex items-center hover:scale-105 hover:text-white hover:drop-shadow-xl duration-300 drop-shadow-lg bg-nav w-fit py-2 px-6 rounded-xl mt-8 text-light-blue font-sans font-normal tracking-normal" to="/service">Get Started<HiArrowNarrowRight size={20} className="ml-[0.3rem]" /></Link>
             </div>
         </div>
     )
