@@ -8,32 +8,23 @@ export default function Career() {
     return (
         
         <div class="flex-above">
-         <div>
-            <div class="relative h-screen">
-                <div class="absolute right-1/3 bottom-1/2 h-1/3 w-3/5">
-                    <h1 class="text-orange text-xl font-bold">
+            <div class="relative h-[30rem] flex items-center">
+                <div class=" absolute right-1/3 bottom-1/2 h-1/3 w-3/5">
+                    <h1 class="text-orange text-xl font-bold mb-16">
                         Come join our mission!
                     </h1>
-                    <br/><br/><br/>
-                    <h3 class="text-white text-lg leading-9">
-                        If you are looking for a challenging and rewarding career in a fast-paced
-                        and dynamic environment, Invictuss is the right place for you.
+                   
+                    <h3 class="text-white text-m leading-9 " >
+                        At Invictuss, we are committed to providing our employees with a fulfilling and engaging work experience. Our culture of excellence encourages employees to take ownership of their work and make a real impact on the team. Along with  compensation and comprehensive benefits, we offer flexible work-life balance and the innovative “choose your office” working approach, making Invictuss the perfect place for you to build your career.
                     </h3>
                 </div>
                 <img className="object-scale-down w-[0rem] md:w-[18rem] lg:w-[18rem]  ml-auto mr-24 mt-14" src = "src/assets/CareerImg.svg" alt="Invictuss logo"/>
-            <div class="absolute bottom-1/4 left-1/4 w-1/2 text-center text-white">
-                    At Invictuss, we believe in fostering a culture of excellence, where every employee
-                    is empowered to take ownership of their work and make a meaningful contribution to
-                    the team. We offer competitive compensation packages, comprehensive benefits, and a
-                    flexible work-life balance, as well as a “choose your office” working methodology.
-                </div>
             </div>
-        </div>
 
             <div className='flex justify-center mx-20'>
                 <CareerBoxes />
             </div>
-            <div class= "p-96"> </div>git
+            <div class= "p-64"> </div>git
 
         </div>
 
