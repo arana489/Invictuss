@@ -4,14 +4,14 @@ import Box from './textBoxes';
 import './Button.css'
 
 const CareerBox = (props) => {
-  const { title, description } = props;
+  const { title, p1, p2, p3, p4, p5, p6 } = props;
   const [expanded, setExpanded] = useState(false);
 
   return (
     <div
       onMouseEnter={() => {
         // CHANGE BACK TO TRUE 
-        setExpanded(false);
+        setExpanded(true);
       }}
       onMouseLeave={() => {
         setExpanded(false);
@@ -23,7 +23,14 @@ const CareerBox = (props) => {
         // Expanded
         <div className="h-64 border-t-2 border-white">
           <h2 className="text-white text-left text-lg">{title}</h2>
-          <p className='text-white text-left p-5 w-3/4'>{description}</p>
+          <ul className="text-white list-disc list-inside p-5">
+            <li>{p1}</li>
+            <li>{p2}</li>
+            <li>{p3}</li>
+            <li>{p4}</li>
+            <li>{p5}</li>
+            <li>{p6}</li>
+          </ul>
           <Box></Box>
           <div style={{ position: 'absolute', bottom: '20px', right: '30px'}}> {/* Add absolute positioning to child div */}
           <button className="text-white border border-white rounded-full flex items-center w-32 h-10" id='button_col'>
@@ -36,7 +43,11 @@ const CareerBox = (props) => {
         // Collapsed
 <div className="h-64 p-5 border-t-2 border-white">
   <h2 className="text-white text-left text-lg">{title}</h2>
-  <p className="text-white text-left p-5 w-3/4">{description}</p>
+  <ul className="text-white list-disc list-inside p-5">
+            <li>{p1}</li>
+            <li>{p2}</li>
+            <li>{p3}</li>
+          </ul>
   <Box></Box>
   <div style={{ position: "absolute", bottom: "20px", right: "30px" }}>
     <button className="text-white border border-white rounded-full flex items-center w-32 h-10" id='button_col'>
