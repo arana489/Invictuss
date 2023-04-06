@@ -21,7 +21,7 @@ function ServiceContentUnit(props) {
             {service_obj ? (
                 <div className="min-h-screen">
                     <div class="flex justify-center items-center">
-                        <img src={service_obj.icon}/>
+                        <img width="10%" height="10%" src={service_obj.icon}/>
                     </div>
                     <div className="font-bold text-xl text-center text-white">
                         {service_obj.title}

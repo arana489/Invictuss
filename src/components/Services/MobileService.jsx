@@ -10,7 +10,7 @@ export default function MobileService(props){
     // Array with all services, may incorporate a loop later for efficiency and better code
     
     const serviceList=services.map((x, i) => (
-        <ServiceDropdown key={i} service={x.title} description={x.short_desc} d={x.icon}></ServiceDropdown>
+        <ServiceDropdown key={i} service={x.title} short_desc={x.short_desc} long_desc={x.long_desc} d={x.icon}></ServiceDropdown>
     ))
  
     return(
