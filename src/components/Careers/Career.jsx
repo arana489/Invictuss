@@ -17,7 +17,7 @@ export default function Career() {
          <div>
             <div class="relative h-screen">
                 <div class="absolute right-1/3 bottom-1/2 h-1/3 w-3/5">
-                    <h1 class="text-orange text-xl font-bold">
+                    <h1 className="text-light-blue text-xl font-bold">
                         {dict.header}
                     </h1>
                     <br/><br/><br/>
