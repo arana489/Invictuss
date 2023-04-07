@@ -96,28 +96,56 @@
     "Careers": 
     {
         "header":"Come join our mission!",
-        "message1":"If you are looking for a challenging and rewarding career in a fast-paced and dynamic environment, Invictuss is the right place for you.",
-        "message2":" At Invictuss, we believe in fostering a culture of excellence, where every employee is empowered to take ownership of their work and make a meaningful contribution to the team. We offer competitive compensation packages, comprehensive benefits, and a flexible work-life balance, as well as a “choose your office” working methodology.",
+        "message1":"At Invictuss, we are committed to providing our employees with a fulfilling and engaging work experience. Our culture of excellence encourages employees to take ownership of their work and make a real impact on the team. Along with  compensation and comprehensive benefits, we offer flexible work-life balance and the innovative “choose your office” working approach, making Invictuss the perfect place for you to build your career.",
         "CareerBoxes": 
         {
-            "careers" : [
+            "careers":[
                 {
-                  "title": "Application Security Expert",
-                  "description":
-                    "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du. Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
+                "title": "Application Security Expert",
+                    "p1":
+                        "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                    "p2":
+                        "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                    "p3":
+                        "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                    "p4":
+                        "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                    "p5":
+                        "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                    "p6":
+                        "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
                 },
                 {
-                  "title": "Junior DevOps",
-                  "description":
-                    "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du. Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
-                },
-                {
-                  "title": "Senior DevOps Engineer",
-                  "description":
-                    "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du. Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
-                }
-                
-              ]
+                    "title": "Junior Dev Ops",
+                        "p1":
+                            "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                        "p2":
+                            "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                        "p3":
+                            "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                        "p4":
+                            "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                        "p5":
+                            "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                        "p6":
+                            "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
+                    },
+                    {
+                        "title": "Senior Dev Ops",
+                            "p1":
+                                "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                            "p2":
+                                "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                            "p3":
+                                "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                            "p4":
+                                "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                            "p5":
+                                "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
+                            "p6":
+                                "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
+                        }
+            ]
         },
         "testBoxes": 
         {
