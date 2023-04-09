@@ -37,26 +37,56 @@
             "person": "Daniel",
             "role": "Chief Technical Officer",
             "testimonials": [
-            {
-                "name": "Rikesh",
-                "role": "DevOps Manager",
-                "text": "Invictuss helped us integrate security into our ENTIRE development process, including the code writing itself, alongside with establishing security guilds and nominating “champions” from within the coding teams, leading to improved security and raised awareness. Their team provided us with more than knowledge. They changed the way we work, for the best!"
-            },
-            {
-                "name": "Emily",
-                "role": "Production Engineer",
-                "text": "Invictuss understands the importance of modern technology in today's business landscape. With their help, we were able to implement modern OT solutions that have transformed our company. The new technology has greatly improved our efficiency and reduced downtime, which has had a positive impact on our revenue. Their expertise in OT is unmatched, and I would highly recommend their services."
-            },
-            {
-                "name": "Sasha",
-                "role": "Operations Manager",
-                "text": "Invictuss helped us bring our technology into the modern age. We were struggling with outdated systems that were holding us back, but with their expertise in OT, we were able to implement IoT devices and cloud-based systems that have greatly improved our efficiency. Their knowledge of OT is impressive, and I highly recommend their services to anyone looking to modernize their technology."
-            },
-            {
-                "name": "CEO",
-                "role": "Company XYZ",
-                "text": "Invictuss helped us identify and mitigate risks to our OT systems, which was critical for our production line. Their team of experts were able to provide valuable insights and practical solutions that were tailored to our specific needs. We now have peace of mind knowing our systems are secure and protected."
-            }
+                {
+                    "name": "Rikesh",
+                    "role": "DevOps Manager",
+                    "text": "Invictuss helped us integrate security into our ENTIRE development process, including the code writing itself, alongside with establishing security guilds and nominating “champions” from within the coding teams, leading to improved security and raised awareness. Their team provided us with more than knowledge. They changed the way we work, for the best!"
+                },
+                {
+                    "name": "Emily",
+                    "role": "Production Engineer",
+                    "text": "Invictuss understands the importance of modern technology in today's business landscape. With their help, we were able to implement modern OT solutions that have transformed our company. The new technology has greatly improved our efficiency and reduced downtime, which has had a positive impact on our revenue. Their expertise in OT is unmatched, and I would highly recommend their services."
+                },
+                {
+                    "name": "Sasha",
+                    "role": "Operations Manager",
+                    "text": "Invictuss helped us bring our technology into the modern age. We were struggling with outdated systems that were holding us back, but with their expertise in OT, we were able to implement IoT devices and cloud-based systems that have greatly improved our efficiency. Their knowledge of OT is impressive, and I highly recommend their services to anyone looking to modernize their technology."
+                },
+                {
+                    "name": "Company XYZ",
+                    "role": "CEO",
+                    "text": "Invictuss helped us identify and mitigate risks to our OT systems, which was critical for our production line. Their team of experts were able to provide valuable insights and practical solutions that were tailored to our specific needs. We now have peace of mind knowing our systems are secure and protected."
+                },
+                {
+                    "name": "David",
+                    "role": "System Administration Team Lead",
+                    "text": "Invictuss helped us revamp our IT systems, improving performance and reliability. Their team was knowledgeable and professional, and we couldn't be happier with the results."
+                },
+                {
+                    "name": "Sigal",
+                    "role": "Chief Information Officer",
+                    "text": "Thanks to Invictuss, our IT infrastructure is more stable and reliable than ever before. Their team provided invaluable consultation and expertise, helping us improve efficiency and reduce downtime."
+                },
+                {
+                    "name": "Mark",
+                    "role": "DevOps Team Member",
+                    "text": "Invictuss helped us improve our DevOps pipeline, leading to faster release times and improved efficiency. Their team was knowledgeable and professional, and we highly recommend their services."
+                },
+                {
+                    "name": "Amnon",
+                    "role": "DevOps TL",
+                    "text": "Thanks to Invictuss, our DevOps pipeline is more efficient and effective than ever before. Their team provided valuable consultation and expertise, helping us improve our development process and dramatically decrease downtime."
+                },
+                {
+                    "name": "Company DEF",
+                    "role": "CTO",
+                    "text": "Invictuss provided exceptional service in securing our cloud infrastructure. Their team of experts were able to identify and mitigate several vulnerabilities that could have resulted in a major security breach. They were also able to provide practical solutions that were easy to implement and maintain. We highly recommend their services to any company looking to secure their cloud infrastructure."
+                },
+                {
+                    "name": "Leon",
+                    "role": "IT Manager",
+                    "text": "We were having trouble securing our cloud infrastructure and needed expert help. Invictuss provided us with a comprehensive analysis of our cloud environment and identified several vulnerabilities that we had overlooked. They worked closely with our team to implement the necessary controls and provided guidance on best practices for cloud security."
+                }
             ]
         }
     },
@@ -96,55 +126,49 @@
     "Careers": 
     {
         "header":"Come join our mission!",
-        "message1":"At Invictuss, we are committed to providing our employees with a fulfilling and engaging work experience. Our culture of excellence encourages employees to take ownership of their work and make a real impact on the team. Along with  compensation and comprehensive benefits, we offer flexible work-life balance and the innovative “choose your office” working approach, making Invictuss the perfect place for you to build your career.",
+        "message1":"At Invictuss, we are committed to providing our employees with a fulfilling and engaging work experience. Our culture of excellence encourages employees to take ownership of their work and make a real impact on the team. Along with comprehensive benefits, we offer flexible work-life balance and the innovative “choose-your-office” working approach, making Invictuss the perfect place for you to build your career.",
         "CareerBoxes": 
         {
             "careers":[
                 {
                 "title": "Application Security Expert",
-                    "p1":
-                        "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                    "p2":
-                        "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                    "p3":
-                        "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                    "p4":
-                        "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                    "p5":
-                        "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                    "p6":
-                        "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
+                    "requiredSkills": [
+                        "Strong knowledge of software security principles and industry-standard methodologies.",
+                        "Expertise in vulnerability assessment and penetration testing techniques.",
+                        "Proficiency in common web application security vulnerabilities such as SQL injection, Cross-site scripting (XSS), CSRF, etc."
+                    ],
+                    "recommendedSkills": [
+                        "Experience with secure software development lifecycle methodologies and tools.",
+                        "Familiarity with network security concepts such as firewalls, IDS/IPS, VPN, etc.",
+                        "Familiarity with cryptographic algorithms and protocols such as SSL/TLS, SSH, AES, etc."
+                    ]
                 },
                 {
-                    "title": "Junior Dev Ops",
-                        "p1":
-                            "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                        "p2":
-                            "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                        "p3":
-                            "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                        "p4":
-                            "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                        "p5":
-                            "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                        "p6":
-                            "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
-                    },
-                    {
-                        "title": "Senior Dev Ops",
-                            "p1":
-                                "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                            "p2":
-                                "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                            "p3":
-                                "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                            "p4":
-                                "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                            "p5":
-                                "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du.",
-                            "p6":
-                                "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
-                        }
+                "title": "Application Security Expert",
+                    "requiredSkills": [
+                        "Strong knowledge of software security principles and industry-standard methodologies.",
+                        "Expertise in vulnerability assessment and penetration testing techniques.",
+                        "Proficiency in common web application security vulnerabilities such as SQL injection, Cross-site scripting (XSS), CSRF, etc."
+                    ],
+                    "recommendedSkills": [
+                        "Experience with secure software development lifecycle methodologies and tools.",
+                        "Familiarity with network security concepts such as firewalls, IDS/IPS, VPN, etc.",
+                        "Familiarity with cryptographic algorithms and protocols such as SSL/TLS, SSH, AES, etc."
+                    ]
+                },
+                {
+                "title": "Application Security Expert",
+                    "requiredSkills": [
+                        "Strong knowledge of software security principles and industry-standard methodologies.",
+                        "Expertise in vulnerability assessment and penetration testing techniques.",
+                        "Proficiency in common web application security vulnerabilities such as SQL injection, Cross-site scripting (XSS), CSRF, etc."
+                    ],
+                    "recommendedSkills": [
+                        "Experience with secure software development lifecycle methodologies and tools.",
+                        "Familiarity with network security concepts such as firewalls, IDS/IPS, VPN, etc.",
+                        "Familiarity with cryptographic algorithms and protocols such as SSL/TLS, SSH, AES, etc."
+                    ]
+                }
             ]
         },
         "testBoxes": 

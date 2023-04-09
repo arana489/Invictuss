@@ -22,14 +22,14 @@ export default function HomeValues(props) {
         </div>
         <div className="pt-6 pl-10 pr-10">
           <ValueBox
-            imageSrc="/UserProfile.svg"
+            imageSrc="/Hacker.svg"
             title={HV.valueBox[1].title}
             description={HV.valueBox[1].description}
           />
         </div>
         <div className="pt-6 pl-10 pr-10">
           <ValueBox
-            imageSrc="/Profile.svg"
+            imageSrc="/UserProfile.svg"
             title={HV.valueBox[2].title}
             description={HV.valueBox[2].description}
           />
