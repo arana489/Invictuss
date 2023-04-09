@@ -1,44 +1,33 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import Box from './textBoxes';
+import Box from './CareerBadges';
 import CareerBoxes from "./CareerBoxes";
-import dictionary from '../../dictionary.json'
-
-
+import dictionary from '../../dictionary.json';
 
 export default function Career() {
 
-    const dict =dictionary.Careers
-
-
+    const dict=dictionary.Careers
     return (
-        
-        <div class="flex-above">
-         <div>
-            <div class="relative h-screen">
-                <div class="absolute right-1/3 bottom-1/2 h-1/3 w-3/5">
-                    <h1 class="text-orange text-xl font-bold">
+        <div className="mx-[11.5rem]">
+            <img className="absolute top-[4.7rem] right-0 w-10/12" src="/hexes.svg" />
+            <div className="relative flex mt-16 h-[30rem] items-center">
+                <div className="w-7/12">
+                    <h1 className="text-orange text-xl font-bold mb-16 animate-slide-up">
                         {dict.header}
                     </h1>
-                    <br/><br/><br/>
-                    <h3 class="text-white text-lg leading-9">
+
+                    <h3 className="text-white text-m animate-slide-up" >
                         {dict.message1}
                     </h3>
                 </div>
-                <img className="object-scale-down w-[0rem] md:w-[18rem] lg:w-[18rem]  ml-auto mr-24 mt-14" src = "/CareersPage.svg" alt="Invictuss logo"/>
-                <div class="absolute bottom-1/4 left-1/4 w-1/2 text-center text-white mt-14">
-                    {dict.message2}
-                </div>
+                <img className="ml-auto w-[23rem] animate-slide-in-right" src = "/CareersPage.svg" />
             </div>
-        </div>
 
-            <div className='flex justify-center mx-20 mt-[-10%]'>
+            <div className='flex justify-center mt-24 mb-60'>
                 <CareerBoxes />
             </div>
-            <div class="pb-96"> </div>
 
         </div>
-
     )
 }
 

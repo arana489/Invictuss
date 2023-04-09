@@ -33,20 +33,60 @@
         },
         "Testimonials":
         {
-            "mainQuote": "\"Invictuss provided exceptional service in securing our cloud infrastructure. Their team of experts were able to identify and mitigate several vulnerabilities that could have resulted in a major security breach. They were also able to provide practical solutions that were easy to implement and maintain. We highly recommend their services to any company looking to secure their cloud infrastructure\"",
+            "mainQuote": "Invictuss provided exceptional service in securing our cloud infrastructure. Their team of experts were able to identify and mitigate several vulnerabilities that could have resulted in a major security breach. They were also able to provide practical solutions that were easy to implement and maintain. We highly recommend their services to any company looking to secure their cloud infrastructure",
             "person": "Daniel",
             "role": "Chief Technical Officer",
             "testimonials": [
-            {
-                "name": "Rikesh",
-                "role": "DevOps Manager",
-                "text": "Invictuss helped us integrate security into our ENTIRE development process, including the code writing itself, alongside with establishing security guilds and nominating “champions” from within the coding teams, leading to improved security and raised awareness. Their team provided us with more than knowledge. They changed the way we work, for the best!"
-            },
-            {
-                "name": "Emily",
-                "role": "Production Engineer",
-                "text": "Invictuss understands the importance of modern technology in today's business landscape. With their help, we were able to implement modern OT solutions that have transformed our company. The new technology has greatly improved our efficiency and reduced downtime, which has had a positive impact on our revenue. Their expertise in OT is unmatched, and I would highly recommend their services."
-            }
+                {
+                    "name": "Rikesh",
+                    "role": "DevOps Manager",
+                    "text": "Invictuss helped us integrate security into our ENTIRE development process, including the code writing itself, alongside with establishing security guilds and nominating “champions” from within the coding teams, leading to improved security and raised awareness. Their team provided us with more than knowledge. They changed the way we work, for the best!"
+                },
+                {
+                    "name": "Emily",
+                    "role": "Production Engineer",
+                    "text": "Invictuss understands the importance of modern technology in today's business landscape. With their help, we were able to implement modern OT solutions that have transformed our company. The new technology has greatly improved our efficiency and reduced downtime, which has had a positive impact on our revenue. Their expertise in OT is unmatched, and I would highly recommend their services."
+                },
+                {
+                    "name": "Sasha",
+                    "role": "Operations Manager",
+                    "text": "Invictuss helped us bring our technology into the modern age. We were struggling with outdated systems that were holding us back, but with their expertise in OT, we were able to implement IoT devices and cloud-based systems that have greatly improved our efficiency. Their knowledge of OT is impressive, and I highly recommend their services to anyone looking to modernize their technology."
+                },
+                {
+                    "name": "Company XYZ",
+                    "role": "CEO",
+                    "text": "Invictuss helped us identify and mitigate risks to our OT systems, which was critical for our production line. Their team of experts were able to provide valuable insights and practical solutions that were tailored to our specific needs. We now have peace of mind knowing our systems are secure and protected."
+                },
+                {
+                    "name": "David",
+                    "role": "System Administration Team Lead",
+                    "text": "Invictuss helped us revamp our IT systems, improving performance and reliability. Their team was knowledgeable and professional, and we couldn't be happier with the results."
+                },
+                {
+                    "name": "Sigal",
+                    "role": "Chief Information Officer",
+                    "text": "Thanks to Invictuss, our IT infrastructure is more stable and reliable than ever before. Their team provided invaluable consultation and expertise, helping us improve efficiency and reduce downtime."
+                },
+                {
+                    "name": "Mark",
+                    "role": "DevOps Team Member",
+                    "text": "Invictuss helped us improve our DevOps pipeline, leading to faster release times and improved efficiency. Their team was knowledgeable and professional, and we highly recommend their services."
+                },
+                {
+                    "name": "Amnon",
+                    "role": "DevOps TL",
+                    "text": "Thanks to Invictuss, our DevOps pipeline is more efficient and effective than ever before. Their team provided valuable consultation and expertise, helping us improve our development process and dramatically decrease downtime."
+                },
+                {
+                    "name": "Company DEF",
+                    "role": "CTO",
+                    "text": "Invictuss provided exceptional service in securing our cloud infrastructure. Their team of experts were able to identify and mitigate several vulnerabilities that could have resulted in a major security breach. They were also able to provide practical solutions that were easy to implement and maintain. We highly recommend their services to any company looking to secure their cloud infrastructure."
+                },
+                {
+                    "name": "Leon",
+                    "role": "IT Manager",
+                    "text": "We were having trouble securing our cloud infrastructure and needed expert help. Invictuss provided us with a comprehensive analysis of our cloud environment and identified several vulnerabilities that we had overlooked. They worked closely with our team to implement the necessary controls and provided guidance on best practices for cloud security."
+                }
             ]
         }
     },
@@ -71,12 +111,13 @@
                     "role":"Chief Operations Officer",
                     "description":"I am proud to be part of a team that is dedicated to providing best cyber services to all of our customers. My expertise lies in information security and networking protocols, as well as Operational Technology"
                 }
+                
 
             ]
         },
         "MessageFromOurCEO":{
-            "header":"Message From Our CEO",
-            "quote":"“Invictuss provided exceptional service in securing our cloud infrastructure. Their team of experts were able to identify and mitigate several vulnerabilities that could have resulted in a major security breach. They were also able to provide practical solutions that were easy to implement and maintain. We highly recommend their services to any company looking to secure their cloud infrastructure”",
+            "header":"A Message From Our CEO",
+            "quote":"Invictuss provided exceptional service in securing our cloud infrastructure. Their team of experts were able to identify and mitigate several vulnerabilities that could have resulted in a major security breach. They were also able to provide practical solutions that were easy to implement and maintain. We highly recommend their services to any company looking to secure their cloud infrastructure",
             "name":"Marom",
             "role":"Chief Executive Officer"
         }
@@ -85,28 +126,50 @@
     "Careers": 
     {
         "header":"Come join our mission!",
-        "message1":"If you are looking for a challenging and rewarding career in a fast-paced and dynamic environment, Invictuss is the right place for you.",
-        "message2":" At Invictuss, we believe in fostering a culture of excellence, where every employee is empowered to take ownership of their work and make a meaningful contribution to the team. We offer competitive compensation packages, comprehensive benefits, and a flexible work-life balance, as well as a “choose your office” working methodology.",
+        "message1":"At Invictuss, we are committed to providing our employees with a fulfilling and engaging work experience. Our culture of excellence encourages employees to take ownership of their work and make a real impact on the team. Along with comprehensive benefits, we offer flexible work-life balance and the innovative “choose-your-office” working approach, making Invictuss the perfect place for you to build your career.",
         "CareerBoxes": 
         {
-            "careers" : [
+            "careers":[
                 {
-                  "title": "Application Security Expert",
-                  "description":
-                    "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du. Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
+                "title": "Application Security Expert",
+                    "requiredSkills": [
+                        "Strong knowledge of software security principles and industry-standard methodologies.",
+                        "Expertise in vulnerability assessment and penetration testing techniques.",
+                        "Proficiency in common web application security vulnerabilities such as SQL injection, Cross-site scripting (XSS), CSRF, etc."
+                    ],
+                    "recommendedSkills": [
+                        "Experience with secure software development lifecycle methodologies and tools.",
+                        "Familiarity with network security concepts such as firewalls, IDS/IPS, VPN, etc.",
+                        "Familiarity with cryptographic algorithms and protocols such as SSL/TLS, SSH, AES, etc."
+                    ]
                 },
                 {
-                  "title": "Junior DevOps",
-                  "description":
-                    "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du. Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
+                "title": "Application Security Expert",
+                    "requiredSkills": [
+                        "Strong knowledge of software security principles and industry-standard methodologies.",
+                        "Expertise in vulnerability assessment and penetration testing techniques.",
+                        "Proficiency in common web application security vulnerabilities such as SQL injection, Cross-site scripting (XSS), CSRF, etc."
+                    ],
+                    "recommendedSkills": [
+                        "Experience with secure software development lifecycle methodologies and tools.",
+                        "Familiarity with network security concepts such as firewalls, IDS/IPS, VPN, etc.",
+                        "Familiarity with cryptographic algorithms and protocols such as SSL/TLS, SSH, AES, etc."
+                    ]
                 },
                 {
-                  "title": "Senior DevOps Engineer",
-                  "description":
-                    "Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du. Lorem ipsum dolor sit amet consectetur adipiscing elit nulla adipiscing tincidunt interdum tellus du."
+                "title": "Application Security Expert",
+                    "requiredSkills": [
+                        "Strong knowledge of software security principles and industry-standard methodologies.",
+                        "Expertise in vulnerability assessment and penetration testing techniques.",
+                        "Proficiency in common web application security vulnerabilities such as SQL injection, Cross-site scripting (XSS), CSRF, etc."
+                    ],
+                    "recommendedSkills": [
+                        "Experience with secure software development lifecycle methodologies and tools.",
+                        "Familiarity with network security concepts such as firewalls, IDS/IPS, VPN, etc.",
+                        "Familiarity with cryptographic algorithms and protocols such as SSL/TLS, SSH, AES, etc."
+                    ]
                 }
-                
-              ]
+            ]
         },
         "testBoxes": 
         {
@@ -146,49 +209,49 @@
         "services": [
             {
                 "title": "DevSecOps",
-                "icon": "/placeholder_icon.svg",
+                "icon": "public/lockclosed.svg",
                 "short_desc": "We will help you to 'Shift Left' and implement security  across all levels of development.",
                 "long_desc": "What Is DevSecOps? In the traditional development model before DevOps, developers and IT teams were kept apart, with the personnel who deployed the code having little interaction with those who created it. These teams often had different objectives and saw little reason to collaborate. When DevOps emerged, automation and collaboration allowed teams to integrate their efforts around a common objective. Automated testing and continuous integration enabled faster development and deployment while reducing human error. DevOps is a cultural approach where project teams include everyone involved in the process, from developers and QA team to the project manager. While the DevOps model increased development velocity while improving quality, there remained a risk that the continuous integration / continuous delivery (CI/CD) pipeline introduces security vulnerabilities into the market. DevSecOps, a variation on the DevSecOps organizational pattern, seeks to address this risk by integrating security into the entire DevOps process. Security has often been treated as an afterthought or an inconvenience that slows down progress. While security should be a priority, it tends to get pushed aside to be addressed later. DevSecOps aims to shift the attitude of the project team by raising security awareness across all levels and implementing security measures from the start, within the build pipeline. This requires the careful cultivation of a security mindset in every employee to ensure that security features are always taken into consideration."
             },
             {
                 "title": "SSDLC",
-                "icon": "/placeholder_icon.svg",
+                "icon": "public/circlestack.svg",
                 "short_desc": "We will secure your entire software development pipeline, starting from the first line of code, to the last deployment in Production.",
                 "long_desc": "A Secure SDLC (SSDLC) incorporates security into all stages of the software development life cycle (SDLC), including planning, design, build, release, maintenance, and updates. It is often implemented during a transition to DevSecOps and involves applying security best practices and securing the development environment. A secure SDLC unites stakeholders from development and security teams, ensuring that the software application is protected without delay. Developers can learn secure coding frameworks and use automated tools to detect security risks and vulnerabilities. Management teams can perform a gap analysis to create a strategic methodology for a secure product. Establishing and enforcing security policies helps achieve a streamlined SSDLC, and hiring security experts can improve security preparedness."
             },
             {
                 "title": "CI/CD Architecture",
-                "icon": "/placeholder_icon.svg",
+                "icon": "public/server.svg",
                 "short_desc": "We will show you how you can have a robust pipeline, and also have it be as efficient and secure as possible.",
                 "long_desc": "In modern cloud platforms, it's important to align infrastructure and application deployment to reduce complications caused by managing them separately. The application infrastructure can be defined in code, and managing updates to infrastructure and application code in sync can help avoid natural drift. This can be done by passing configuration values at runtime, managing migration in code, and running the same validations for infrastructure and application changes within the pipeline. Validating changes across the entire stack can help avoid errors due to misconfiguration and identify errors earlier in the pipeline process, ensuring that the application meets functional and non-functional requirements."
             },
             {
                 "title": "Visibility Enhancement",
-                "icon": "/placeholder_icon.svg",
+                "icon": "public/usergroup.svg",
                 "short_desc": "We will show you how you can have a robust pipeline, and also have it be as efficient and secure as possible.",
                 "long_desc": "Visibility enhancement and Software Composition Analysis (SCA) are two critical aspects of managing open source code, which has become ubiquitous in proprietary applications, making up an estimated 60-80% of their code bases. SCA tools are a segment of the application security testing (AST) market that helps manage open source component use by performing automated scans of an application’s code base, containers, and registries to identify all open source components, their license compliance data, and any security vulnerabilities. Some SCA tools also prioritize and auto remediate open source vulnerabilities, providing organizations with much-needed visibility into open source use and helping them mitigate security risks. As open source components have become the main building blocks in software applications across all verticals, SCA should be an essential part of any organization's application security portfolio."
             },
             {
                 "title": "On-Prem Hardening",
-                "icon": "/placeholder_icon.svg",
+                "icon": "public/fingerprint.svg",
                 "short_desc": "Our architectural design will provide a comprehensive defense strategy across the board: IT, IOT and OT, and allow you to shorten your TTM (Time to Market).",
                 "long_desc": "Our architecture provides a defense strategy for all components, including IT, IOT, and OT. The rapid growth of cybercrime and the confining of security to specific functions have made it necessary to implement a multi-layered and in-depth protective mechanism. Our system hardening architecture guide enables system administrators to apply several security measures at various layers, including the host, application, operating systems, and physical layer, to protect valuable company assets and data."
             },
             {
                 "title": "CISO",
-                "icon": "/placeholder_icon.svg",
+                "icon": "public/cloudarrowdown.svg",
                 "short_desc": "We will help you to 'Shift Left' and implement security  across all levels of development.",
                 "long_desc": "CISOaaS, or Chief Information Security Officer-as-a-Service, provides information security leadership and guidance to senior management, driving an organization's information security program. This cost-effective service offers expertise in maintaining information security systems and managing risk, extending an organization's capabilities, and reducing risks and incidents that may cause business losses. CISOaaS helps organizations identify their information security maturity, threat landscape, and regulatory requirements. It provides a roadmap to implement and maintain an information security strategy, reducing risk and raising security maturity. This service offers access to a pool of specialized cyber security professionals, lowers costs, reduces risk, and secures cross-business support to achieve information security goals. The engagement process involves scoping, assessment, gap analysis, implementation, evaluation, and continual maintenance. This service is suitable for organizations with lean IT functions, upgrading their cybersecurity strategy, or designing the right architecture to mitigate risks posed by cybercrime."
             },
             {
                 "title": "PT",
-                "icon": "/placeholder_icon.svg",
+                "icon": "public/eyeslash.svg",
                 "short_desc": "We will help you to 'Shift Left' and implement security  across all levels of development.",
                 "long_desc": "Web Application Penetration Testing (WAPT) helps identify vulnerabilities and security issues in web applications, allowing organizations to take action before users' data is compromised. WAPT provides a better understanding of web application attack surfaces and helps Web Security Professionals to understand how web applications work, what technologies are used, and which vulnerabilities attackers exploit. WAPT is done by web security professionals using various tools and techniques, including automated and manual scans, to identify vulnerabilities in client-side code and known web server and framework-related vulnerabilities. This testing is performed in a safe environment without worrying about production systems being brought down during testing. Web Penetration Testers follow steps to gain an understanding of how the target application works, scan for vulnerabilities, exploit vulnerabilities to gain further information, and fix them if possible."
             },
             {
                 "title": "Compliance",
-                "icon": "/placeholder_icon.svg",
+                "icon": "public/wrenchscrewdriver.svg",
                 "short_desc": "We will help you to 'Shift Left' and implement security  across all levels of development.",
                 "long_desc": "Information security compliance is critical for organizations of all sizes to protect their data and information from cyber threats and comply with national and international laws and regulatory requirements. Governance, Risk, and Compliance (GRC) are necessary functions within enterprises that ensure compliance. Information security compliance means meeting rules or standards about the protection of data and information, such as the Sarbanes-Oxley Act (SOX), the General Data Protection Regulation (GDPR), the Federal Information Security Management Act (FISMA), the Health Insurance Portability and Accountability Act (HIPAA), and the Payment Card Industry Data Security Standard (PCI-DSS), among others. The most commonly used IT security compliance standard is the ISO/IEC 27001, which sets out a best practice approach for providing appropriate security for data and information. IT Governance offers expert individuals who have held leadership CISO roles, skilled at ensuring your organization is prepared to deal with data breaches and incidents, and can manage and communicate with regulators for all data privacy and information security requests on your behalf."
             }]

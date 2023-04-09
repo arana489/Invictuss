@@ -12,7 +12,7 @@ const InfiniteSlider = () => {
     ]
 
     return (
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center bg-nav bg-opacity-40 backdrop-blur-lg h-36">
             <div className="flex w-[200%] items-center h-44 overflow-hidden relative">
                 <div className="w-[200%] flex items-center justify-around absolute left-0 animate">
                     {images.map((i) => {

@@ -10,9 +10,10 @@
 }
 
 .animate-slide-in-right {
+  opacity: 0;
   scale: 85%;
   animation: slideInRight 1s ease-out forwards;
-  animation-delay: 1s;
+  animation-delay: 0.25s;
 }
 
 @keyframes float {
