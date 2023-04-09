@@ -34,6 +34,11 @@ export default function Contact(){
 
       function submit(){
         const temp = info
+
+        if(temp.name==""|| temp.email==""){
+            alert("missing name or email")
+            return;
+        }
         setInfo({name: "", email: "", services:"", company:"", message:""})
         //setSubmitted(x=>x.concat(temp))
         emailjs.send('service_key_test', 'template_key_test', info, 'Xe-GzRGFE7-UHda0d')
