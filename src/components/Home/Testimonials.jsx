@@ -22,7 +22,7 @@ export default function Testimonials() {
           </p>
           <div className="pt-6 mx-9">
             <p className="text-[20px]">{test.person}</p>
-            <p className="text-[14px] text-[#76798d] font-sans font-[300] tracking-wider">{test.role}</p>
+            <p className="text-[14px] text-[#76798d] font-mono">{test.role}</p>
           </div>
         </div>
         <div>

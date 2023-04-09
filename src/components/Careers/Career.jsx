@@ -12,15 +12,15 @@ export default function Career() {
             <img className="absolute top-[4.7rem] right-0 w-10/12" src="/hexes.svg" />
             <div className="relative flex mt-16 h-[30rem] items-center">
                 <div className="w-7/12">
-                    <h1 className="text-orange text-xl font-bold mb-16">
+                    <h1 className="text-orange text-xl font-bold mb-16 animate-slide-up">
                         {dict.header}
                     </h1>
 
-                    <h3 className="text-white text-m" >
+                    <h3 className="text-white text-m animate-slide-up" >
                         {dict.message1}
                     </h3>
                 </div>
-                <img className="ml-auto w-[23rem]" src = "/CareersPage.svg" alt="Invictuss logo"/>
+                <img className="ml-auto w-[23rem] animate-slide-in-right" src = "/CareersPage.svg" />
             </div>
 
             <div className='flex justify-center mt-24 mb-60'>

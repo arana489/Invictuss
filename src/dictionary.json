@@ -116,8 +116,8 @@
             ]
         },
         "MessageFromOurCEO":{
-            "header":"Message From Our CEO",
-            "quote":"“Invictuss provided exceptional service in securing our cloud infrastructure. Their team of experts were able to identify and mitigate several vulnerabilities that could have resulted in a major security breach. They were also able to provide practical solutions that were easy to implement and maintain. We highly recommend their services to any company looking to secure their cloud infrastructure”",
+            "header":"A Message From Our CEO",
+            "quote":"Invictuss provided exceptional service in securing our cloud infrastructure. Their team of experts were able to identify and mitigate several vulnerabilities that could have resulted in a major security breach. They were also able to provide practical solutions that were easy to implement and maintain. We highly recommend their services to any company looking to secure their cloud infrastructure",
             "name":"Marom",
             "role":"Chief Executive Officer"
         }

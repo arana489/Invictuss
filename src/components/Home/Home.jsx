@@ -13,7 +13,7 @@ export default function Home(props) {
             <div className="flex mt-10 h-[30rem] mx-[11.5rem]">
                 <CallToAction />
                 <div className="-mr-24 mt-8 ml-auto animate-float">
-                    <img className="opacity-0 max-w-[38rem] animate-slide-in-right" src="/HomePic.webp" alt="Invictuss logo" />
+                    <img className="max-w-[38rem] animate-slide-in-right" src="/HomePic.webp" alt="Invictuss logo" />
                 </div>
             </div>
             <div className="mt-20 z-50">
