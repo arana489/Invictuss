@@ -67,10 +67,7 @@ export default function Contact(){
     
     
 
-        <div className="p-16 ">
-    
-            
-
+        <div className="p-16 2xl:h-[1525px]">
             <div className="lg:flex justify-evenly">
                 <div className="text-center lg:text-left md:mb-10 lg:mb-10 mt-16 text-white">
                     <h1 className="text-lg font-bold mb-10 mt-10">{cont.header}</h1>

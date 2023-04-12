@@ -7,14 +7,14 @@ import './animation.css';
 export default function Service(){
 
     return(
-        <div>
+        <div className="w-full flex justify-center 2xl:h-[1525px]">
             {/* Mobile Version */}
             <div class="md:hidden">
                 <MobileService/>
             </div>
 
             {/* Desktop Version */}
-            <div class="hidden md:block">
+            <div class="hidden md:block lg:max-w-screen-2xl">
                 <div className="mt-16 text-lg text-light-blue text-center transform opacity-0 animate-slide-up">
                     Our Services
                 </div>
