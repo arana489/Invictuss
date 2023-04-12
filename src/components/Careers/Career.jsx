@@ -9,7 +9,7 @@ export default function Career() {
     const dict=dictionary.Careers
     return (
         <div className="w-full flex justify-center">
-            <div className="max-w-[100rem] mx-[11.5rem]">
+            <div className="max-w-[80rem] mx-[11.5rem]">
                 <img className="absolute top-[4.7rem] right-0 w-10/12" src="/hexes.svg" />
                 <div className="relative flex mt-16 h-[30rem] items-center">
                     <div className="w-7/12">

@@ -105,7 +105,7 @@ export default function Contact(){
                                     <br></br>
                                 </div>
                                 <div className="">
-                                    <label className="text-light-blue text-sm" htmlFor="company">Company</label><br></br>
+                                    <label className="text-light-blue text-sm" htmlFor="company">Company<span className="text-[#f75252]">*</span></label><br></br>
                                     <input type="text" id="company" value={info.company} className="text-white border border-light-blue focus:outline-none my-2 p-2 text-sm  h-[45px] w-[180px] md:w-[230px] lg:w-[230px] rounded-xl bg-blue-bg" onChange={e=>setInfo((x)=>({...x, company:e.target.value}))}></input><br></br>
                                 </div>
                             </div>
